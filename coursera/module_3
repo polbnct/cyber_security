@@ -1,0 +1,83 @@
+Security Frameworks - Guidelines used for building plans to help mitigate risk and threats to data and privacy
+
+Purpose of Security Frameworks;
+- Protecting PIII (Personally Identifiable Information)
+- Securing Financial Information
+- Identifying Weaknesses
+- Managing organizational risks
+- Aligning Security with Business Goals
+
+4 Core components of Frameworks;
+
+- Indentifying and documneting security goals
+-- Ex. Organization compliance with the E.U.'s General data Protection Regulation (GDPR)
+-- GDPR - is a data protection law established to grant European citizens more control over their personal data.
+
+- Setting guidelines to achieve security goals 
+-- Ex. Implementing guidelines to achieve GDPR compliance.
+
+- Implemeting Strong Security process
+-- Ex. A security analysts working for a social media company may help design procedures to ensure the organization complies with verified user data request.
+
+- Monitoring and communicating results
+-- Ex. you may monitor your organization's internal network and report a potential security issue affecting GDPR to your manager or regulatory compliance officer.
+
+Framework - allows analysts to work alongside other member of security team to document, implement, and use the policies and procedures that have been created.
+
+Security Controls - are safeguards designed to reduce specific security risks. 
+-- Ex. your company may have a guideline that requires all employees to compete a privacy training to reduce the risk of data breaches.
+
+Security Frameworks and Controls - are vital to managing security for all types of organizations and ensuring that everyone is doing their part to maintaing a low level of risks.
+
+- Identifying and Documenting Security Goals
+- Setting Guidelines to acheve Security Goals
+- Implementing Strong Security Processes
+- Monitoring and Communicating results.
+
+Compliance - is the process of adhering to internal standards and external regulations.
+
+CIA - Confidentiality, Integrity, and Availability
+
+Security Controls - are safeguards designed to reduce specific security risks.
+
+NIST - National Institute of Standards and Technology
+
+FERC-NERC - is a regulation that applies to organizations that work with electricity or that are involved with the U.S and North American power grid.
+-- Prepare, Mitigate, and report any potential security incident that can negatively affect the power grid.
+
+FEDRAMP - Federal Risk and Autorization Management Program
+- is a US federal government program that standardizes securty assessment, authorization, monitoring, and handling of cloud services and product offerins.
+
+CIS - Center of Internet Security
+- is a nonprofit with multiple areas of emphasis. It provudes a set of controls that can be used to safeguard systems and networks against attacks.
+-- help organizations establish a better plan of defense,
+-- provides actionable controls that security professionals may follow if a security incident occurs.
+
+GDPR - General Data Protection Regulation
+- is a European Union (E.U) general data regulation that protects the processing of E.U. residents data and their rights to privacy in and out of E.U territory.
+-- If an organization is not being transparent about the data they are holding about an E.U citizends and why they are holding that data, this is an infringement that can result in a fine to the organization.
+
+PCI DDS - Paymend Card Industry data Security Standard 
+- is an internation security standard meant to ensure that organizations storng, accepting, processing, and transmitting credit card information to do so in a secure environment.
+
+ISO - International Organization for Standardization
+- was created to establish international standards related to technology, manufacturing, and management across borders.
+-- helps organizations improve their processes and procedures for staff retention, planning, waste, and service.
+
+SOC type 1, SOC type 2 - System and Organizations Controls
+- American Institute of Certified Public Accountatnts (AICPA) - Auditing standards board developed this standards.
+
+SOC 1 and SOC 2 are series of reports that focus on an organization's user access policies at different organizational levels;
+- Associate
+- Superviser
+- Manager
+- Executive
+- Vendor
+- Others
+
+United States Presidential Executive Order 14028
+- Joe Biden released an executive order related to improving the nation's cybersecurity to remediate the increase in threat actor activity.
+
+
+
+
