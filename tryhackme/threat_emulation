@@ -1,0 +1,40 @@
+What is threat Emulation?
+
+- Threat Emulation is meant to assist security teams and organisations, in general, in better understanding their security posture and their defence mechanisms and performing due diligence in their compliance.
+
+Cyber Security Assessment Issues;
+
+-- Are our people traned and alert?
+-- Are our internal processes effective?
+-- has the technology in use properly configure and delivered value to the business?
+
+Vulnerability Assessments - Are conducted to identify vulnerabilities in assets under a defined sccope.
+
+Focus -- Comprehensive and based on the rulse of the engagement defined, as assessments do not include exploitation.
+
+Penentration Testing - involves exploiting vulnerabilities within an organisation under strict control of the scopr and rules of engagement.
+
+Pentest - provide oraganisations with information about their security posture, patching vulnerabilities and where to invest in security training or practices.
+
+Red teaming - provides a means of looking at cyber security issues from an adversary's perspective. 
+
+Threat Emulation - is an intelligence-driven impersonatinon of real-world attack scenarios and TTPs in controlled environment to test, assess and improve an organisation;s security defences and response capabilities.
+
+Real-world threats - The MITRE ATT&CK framework and cyber threat intelligence are common information sources to ensure threat TTPs are based on actual breaches, APTs and campaigns
+
+Behaviour-focused - The execution of TTPs during an emulation exercise aims to tune defences based on behaviours and not signatures, thus adapting to the elements of the Pyramid.
+
+Transparency - Disclosure of activities between the Red and Blue teams during execution ensures that the security posture is improved holistically.
+
+Collaborative - due to common goal of improving organisational security, threat emulations allows team to collaborate in their efforts.
+
+Repeatable - Some emulation tasks would bedone multiple times in the course on an exercise or numerious exercises.
+
+Assessment & Improvement - The goal is to test personnel, assess security processes and evaluate the technology adopted.
+
+Capability Development - Emulation enable the creation, modificaaiton and application of tools and analytics derived from TTPs
+
+Professional Development - This breaks down the barriers between red and blue teams and fosters collaboration missions.
+
+
+
