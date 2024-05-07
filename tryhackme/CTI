@@ -1,0 +1,43 @@
+Cyber Threat Intelligence (CTI) - can be defined as evidence-based knowledge about adversaries, including their indicators, tactics, motivations, and actionable advice against them.
+
+Data - Discrete indicators associated with an adversary, such as IP addresses, URLs or hashes.
+
+Information - A combination of multiple data points that answer questions such as "How many times have employees accessed tryhackme.com within the month?"
+
+
+Intelligence - The correlation of data and information to extract patterns of actions based on contextual analysis.
+
+Primary goal of CTI - Understand the relationshipi between your operational environment and your adversary and how to defend your environment against any attacks.
+
+- Whos attacking you?
+- What are their motivations?
+- What are their capabilities?
+- What artefacts and indicators of compromise (IOCs) should you look out for?
+
+Different type of Categories:
+
+- Internal;
+-- Corporate security events such as vulnerability assessments and incident response reports.
+-- Cyber awareness training reports
+-- Systems logs and events.
+
+- Community;
+-- Open web forums
+-- Dark web communities for cybercriminals
+
+External;
+-- Threat intel feed (Commercial & Open-Source)
+-- Online Marketplaces
+-- Public sources include government data, publications, social media, financial and industrial assessments.
+
+Threat Intelligence Classifications;
+
+Strategic Intel - High level intel that looks into the organisations threat landscape and maps out the risks areas based on trends, patterns and emerging threats that may impact business decisions.
+
+Technical Intel - Looks into evidence and artefacts of attack used by an adversary
+
+Tactical Intel - Assess adversaries' tactics, techniques, and procedures (TTPs) 
+
+Operational Intel - Looks into an adversary's specific motives and intent to perform an attack.
+
+
