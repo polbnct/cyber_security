@@ -40,4 +40,31 @@ Tactical Intel - Assess adversaries' tactics, techniques, and procedures (TTPs)
 
 Operational Intel - Looks into an adversary's specific motives and intent to perform an attack.
 
+Direction;
+Threat Intel Program Requriees the following parameters;
+- Information assets and business processes that require defending.
+- Potential impact to be experienced on losing the assets or through process interruptions.
+- Source of data and intel to be used towards protection
+- Tools and resources that are required to defend the assets.
+
+Collection;
+- Once objectives have been defined, security analysts will gather the required data to address them. 
+-- Analyst will use commercial, private and open-source resources available.
+
+Processing;
+- Raw logs, vulnerability information, malware and network traffic usually come in different formats and may be disconnected when used to investigate an incident.
+
+Analysis;
+- Once the information aggregation is complete, security analysts must derive insights decisions to be made may involve;
+-- Investigating a potential threat through uncovering indicators and attack patterns.
+-- Defining an action plan to avert an attack and defend the infrastracture.
+-- Strengthening security controls or justifying investment for additional resources.
+
+Dissemination;
+- Different organisational stakeholders will consume the intelligence in varying languages and formats. For example, C-suite members will require a concise report covering trends in adversary activities, financial implications and strategic recommendations.
+
+Feedback;
+- The final phase covers the most crucial part, as analysts rely on the responses provided by stakeholders to improve the threat intelligence process and implemntations fo security controls.
+
+
 
