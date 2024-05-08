@@ -36,5 +36,40 @@ Capability Development - Emulation enable the creation, modificaaiton and applic
 
 Professional Development - This breaks down the barriers between red and blue teams and fosters collaboration missions.
 
+Emulation Methodologies;
+
+Mitre ATT&ck framework;
+- is an industry-known knowledge base that provides information about knonw adversarial TTPs observed in actual attacks and breaches.
+
+The Atomic Red Team - is a library of emulation tests developed and curated by Red Canary that can be executed to test security defences within an organisation.
+
+Choose an ATT&CK technique -> Choose a test for that techniques -> Execute the test procedure -> Analyse your detections of the procedures -> Make improvements to your defense.
+
+TIBER-EU Framework
+- The Threat Intelligence-based Ethical Red Teaming is the European Framework developed to deliver controlled, bespoke, intelligence-led emulation testing on entities and organisations' critical live systems.
+(like purple teaming)
+
+Three phase of TIBER-EU Framework;
+
+1. Preparation Phase;
+- During these phase, the security teams involved in the test are established, and the entity's management determines and approves the socpe.  this represents the formal launch of adversarial testing by endusring all the planning and procurement processes are fulfilled.
+
+2. Testing Phase;
+- During this phase, the security teams involved in the test are established, and the entity's management determines and approves the scope. This represents the formal launch of adversarial testing by ensuring all the planning and procurement processes are fullfilled.
+
+3. Closure Phase; 
+- Once the tests are run and defense measured, the emulation team must consider reporting and remediation measures. Each group will draft their analysis reports, including details of the test conducted, finding and recommendations for technical controls, policies, procedures, and awareness training.
+
+CITD (Center for Threat Informed Defense)
+- Non-profit research and development organisation operated by MITRE Engenuity. Its misison is to promote the practice of threat informed defence.
+- Curated open source adversary emulation library.
+
+2 Approaches on their emulation;
+
+Full Emulation;
+- This is a comprehensive approach to emulating a particular adversary.
+
+Micro Emulation;
+- This approac is more focused, emulating behaviours accross multiple adversaryes, such as file access or process injection techniques.
 
 
