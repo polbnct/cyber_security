@@ -1,0 +1,63 @@
+Lecture 1: Introduction to Social and Economic Networks.
+
+Introduction:
+
+What is networks?
+- In the case of social and economic networks, these units (Nodes) - are usuallyindividuals or firms.
+
+- The connections between them (Links) can repressent any of a wide range of relationships: friendship, business relationship, communication channel, etc.
+
+Herd Immunity - is the fraction of the population that must be immune to the virus (through either past infection or vaccination) to cause infections to fall.
+
+Social and Economic networks are characterized by these both things;
+- Pattern of linkage 
+- Interactions and decisions that take place over the links.
+
+Graph Theory - Physical modeling of network structure
+Game Theory - Strategic modeling of Interactive behaviour
+
+Networks with N nodes - N(N-1) / 2
+
+How to understand netowrks?
+- Develop theoretical frameworks for identifying key properties of networks and the processes that play out on them
+- Frameworks will be application-dependent, with important commonalities.
+- There are commonalities, but also important differences, in the factors that determine the spread of an epidemic disease vs the spread of a new technology.
+
+Dynamic Networks - networks that vary over time; their vertices are often not binary and instead represent a probability for having a link between two nodes.
+
+Graphs - Networks mathematically that formalize patterns of relationships (Links) between different unit (nodes).
+- can be directed or undireccted, depending on what kind of relationship they represent.
+
+- can also be weighted or unweighted, depending on whether links differ their importance, capacity, likelihood of materializing, etc.
+
+Simplest form (unweighted graph) is G = (N,E)
+
+N = set of n nodes in the graph (e.g. websites, individuals)
+E = set of edges, linking nodes in the graph.
+
+Sociology - is largely about group interactions:  thus, network structure is naturally important.
+
+- Notions such as social capital, power, or leadership may be best understood by studying the network of interactions within groups.
+
+Strength of Weak ties - People finding jobs with acquitances and not with close friends
+
+Examples of Networks;
+
+How do people learn about new products?
+- Japanese graphic novel example
+- "Cult Following"
+
+How does a new technology spread?
+- Hybrid corn example
+- Word-of-mouth from early adopters leads to a distinctive adoption pattern.
+
+How do people form their political, social and religious opinions?
+- Imitate family, friends, and neighbors?
+- More sophisticated information aggregation by talking and observing friends and news soruces.
+- Howdo social networks matter?
+
+Wisdom of the crowds - Combining the information of many, particularly people with different perspectives and diverse experiences, lead to better decisions.
+
+
+
+
