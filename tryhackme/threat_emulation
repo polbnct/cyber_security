@@ -72,4 +72,43 @@ Full Emulation;
 Micro Emulation;
 - This approac is more focused, emulating behaviours accross multiple adversaryes, such as file access or process injection techniques.
 
+Threat Emulation Process 1:
+
+1. Defining Emulation Objectives;
+- Defining clear, well defined, specific, and measurable objectives.
+- The scope of the exercise should also be clearly defined, including what the emulation will target as specific systems and data.
+
+2. Research Adversary TTPs
+- This step aims to accurately model the behaviour of the target adversary so that the emulation team can conduct the exercise realistically and practically.
+- Involves gathering as much information about the threat and identifying its behaviours
+
+2.1 - Information Gathering
+- This step starts by gathering information about threats you would be concerned about.
+- APT41 -- Deals with cyber espionage as opposed to financial fraud.
+
+2.2 - Select the Emulated Adversary
+- Relevance;
+Align adversary to be selected to the engagement objectives and the company's goals. This may even include looking at the grographical relevance of particular APTs
+- Available CTI;
+Threat intelligence is vital for providing trustworthy information about threat.-- reliable resources around the TTPs
+
+- TTP Complexity;
+Executing a fruitful emulation plan for complex adversaries who use sophisticated tools and procedures may take a long time.
+-- Establing whether existing tools can handle the emulatioin or whether cusoms one are required.
+
+- Available Resources;
+Theese are primarily in-house resources that must be provisioned for a smootyh opration. Budget, time and personnel must be allocated appropriately during the emulation process.
+
+Emulation Engineer;
+- Reviews the factors of the attack, assessing the shortlist of TTPs against them and narrowing down to the appropriate selection.
+
+2.3 Select the emulated TTPs
+- Aims to accurately model the behaviour of the target adversary so that the exercise can be conducted realistically and practically.
+-- FIN7 APT, TTPs include spear phishing, social engineering, and watering hole attacks.
+
+2.4 Construct TTP Outline;
+- The outline aims to drive follow-up threat emulation activities, such as explaining the planned emulation activities, stating the scope and rules of engagement and how the TTPs will be implemented during the exercise.
+
+
+
 
