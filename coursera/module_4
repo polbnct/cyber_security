@@ -1,0 +1,16 @@
+Cybersecurity Tools;
+
+Log - is a record of events that occur within an organization's systems.
+
+SIEM Tools (Security Information and Event Management tool) - An Application that collects and analyzes log data to monitor critical activities in an organization
+
+Splunk & Google chronicles
+
+Playbook - Manual that provides details about any operational action
+-- How to response and handle security breaches.
+
+Network Protocol Analyzer (Packet Sniffer) - A tool designed to capture and analyze data traffic within a network.
+
+
+
+
