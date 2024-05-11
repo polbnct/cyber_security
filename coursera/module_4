@@ -12,5 +12,51 @@ Playbook - Manual that provides details about any operational action
 Network Protocol Analyzer (Packet Sniffer) - A tool designed to capture and analyze data traffic within a network.
 
 
+Toolkit for Entry level Analyst;
+
+SIEM Tool - is an application that collects and analyzes log data to monitor critical activities in an organization.
+
+Network Sniffers; (Packet Sniffers)
+
+Playbook;
+1st Type:
+- Chain of custody Playbook - is the process of documenting evidence possession and control during an incident lifecycle.
+
+2nd Type:
+- Protecting and Preserving evidence Playbook - is the process to properly working with fragile and volatile digital evidence.
+- Order of Volatility - is a sequenfce outlining the order of data that must be preserved from first to last.
+
+Programming - is a process that can be used to create a specific set of instructions for a computer to execute tasks.
+Common Programming Languages - Python & SQL
+
+Automation - is the use of technology to reduce human and manual effort in performing common and repetitive tasks.
+-- Help reduce the risk of human error.
+
+SQL - is used to create, interact withm and request information from a database.
+
+Database - is an organized collection of information or data.
+
+Data point - is a specific piece of information.
+
+Operating System - is the interface between computer hardware and the user.
+Ex. Linux, Windows, macOS
+
+Command - is an instruction telling the computer to do something.
+
+Command Line - is an interface with a text-based user that uses command to interacts with the computer.
+
+Web Vulnerability - is a unique flaw in a web application that a threat actor could exploit by using malicious code or behavior, to allow unauthorized access, data theft, and malware deployment.
+
+AntiVirus Software;
+- is a software program used to prevent, detect, and eliminate malware and viruses.
+
+IDS (Intrusion Defense System) - is an application that monitors system activity and alerts on possible intrusion.
+-- Scans and analyzes network packets, which carry small amount of data through network.
+
+Encryption - makes data unreadable and difficult to decode for an unauthorized user; its main goal is to ensure confidentiality of private data.
+
+Penetration Testing - is the act of participating in a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes.
+
+
 
 
