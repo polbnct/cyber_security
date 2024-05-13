@@ -109,6 +109,22 @@ Emulation Engineer;
 2.4 Construct TTP Outline;
 - The outline aims to drive follow-up threat emulation activities, such as explaining the planned emulation activities, stating the scope and rules of engagement and how the TTPs will be implemented during the exercise.
 
+Threat Emulation Process II;
+
+Threat Emulation Plans - Are a collection of resources used to organise and set a step-by-step execution of instructions for adversary behaviours based on a particular set of TTPs.
+
+- Engagement Objective - Objective in the beginning of the process to understand the threat emulation.
+
+- Scope - The departments, users and devices upon which emulation activities are permitted should be defined explicitly.
+
+- Schedule - The dates and times when the activities should occur and wen deliverables are due should be defined.
+
+- Rules of Engagement - The acceptable adversary behaviours to be emulated must be planned and discussed.
+
+- Permission to Execute - Explicit written consent to conduct the emulation activities must be provided by sufficient authority from the organisation.
+
+- Communication Plan - The Emulation team and organisation stakeholders must have a plan to communicate information concerning the emulation activities.
+
 
 
 
