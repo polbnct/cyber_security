@@ -125,6 +125,21 @@ Threat Emulation Plans - Are a collection of resources used to organise and set 
 
 - Communication Plan - The Emulation team and organisation stakeholders must have a plan to communicate information concerning the emulation activities.
 
+Conducting the Emulation;
+- Involves carrying out the attack using the TTPs identified in research phase. 
+
+Planning the Deployment;
+- As the emulation engineer for VASEPY, we can revisit the Research phase tackled in the previous task, where we identify the TTPs to emulate for FIN7
+
+Implementation of TTP;
+- This is where the deployment of actual TTPs happens. In our case scenario, an initial access payload for FIN7 would be created and obfuscated using an RTF document, delivered through a spear phishing email.
+
+Detections & Mitigations;
+
+- Since Emulation is a cross team and collaborative endeavour, the defence team must find ways to detect and mitigate against emulated TTPs.
+- SOC usually uses standard cyber security tools to collect, correlate and analyse TTP behaviour and logs for detection.
+- MITRE provides a list of mitigation efforts for the adversarial TTPs, and this can be provided as recommendations as implemented as part of the emulation.
+
 
 
 
