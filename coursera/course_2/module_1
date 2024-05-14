@@ -9,6 +9,81 @@ Module 1;
 - Risk Management Framework
 - Risk management
 
+8 Security Domains (CIISP)
+
+1 - Security and Risk Management;
+- All organizations must develop their security posture.
+- Security Posture is an organization's ability to manage its defense of critical assets and data to react to change.
+
+-- Security Goals and Objectives.
+-- RIsk Mitigation Process.
+-- Compliance
+-- Business Continuity Plans
+-- Legal Regulations
+-- Professional and Organizations Ethics
+
+List of InfoSec Design Processes;
+
+- Incident Response
+- Vulnerability Management
+- Application Security
+- Cloud Security
+- Infrastructure Security.
+
+2 - Asset Security;
+- Involves managing the cybersecurity processes of organizational assets, including the storage, maintenance, retention, and destruction of physical and virtual data.
+- Conducting a Security analysis, establishing a recovery plan, and managing data exposure will depend on the level of risk associated with each asset.
+
+3 - Security Architecture and Engineering;
+- Used on managing data security. Ensuring effective tools, systems, and processes are in place helps protect an organization's assets and data.
+
+Design Principles;
+
+- Threat Modeling
+- Least Privilege
+- Defense in Depth
+- Fail Securely
+- Separation of duties
+- Keep it Simple
+- Zero Trust
+- Trust but Verify
+
+Managing data - Security Information and Event Management (SIEM) Tools.
+
+4 - Identify and Access Management;
+
+- IAM (in short) - focuses on keeping data secure.
+- Ensuring user identities are trusted and authenticated and that access to physical and logical assets is authorized.
+
+5 - Communication and Network Security;
+
+- Focuses on Managing and Securing physical networks and wireless communications. This includes on-site, remote, and cloud communication.
+
+6 - Security Assessment and Testing;
+- Focuses on Identifying and mitigating risks, threats, and vulnerabilities. 
+- Help organizations determine whether their internal systems are secure or at risks.
+- Uses pet testers to find vulnerabilities that could be xploited by a threat actor.
+
+7 - Security Operations;
+- Focuses on the investigation of a potential data breach and the implementation of preventative measures after a security incident has occured.
+
+Strategies, Processes and tools such as;
+
+- Training awareness
+- Reporting and Documentation
+- Intrusion Detection and Prevention
+- SIEM tools
+- Log Management
+- Incident Management
+- Playbooks
+- Post-breach Forensics
+- Reflection on Lessons Learned
+
+8 - Software Development Security;
+
+- focused on using secure programming practices and guidelines to create secure applications.
+- Secure applications deliver secure and reliable services, which helps protect organizations and their users.
+
 
 
 
