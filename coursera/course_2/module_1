@@ -84,6 +84,74 @@ Strategies, Processes and tools such as;
 - focused on using secure programming practices and guidelines to create secure applications.
 - Secure applications deliver secure and reliable services, which helps protect organizations and their users.
 
+Risk Management;
+- An primary goal of organizations is to protect assets.
+
+Assets;
+- Is an item perceived as having value to an organization.
+- Can be digital or physical
+Examples;
+
+- Social Security Numbers (SSNs) or unique identification numbers assigned to individuals.
+- Dates of Birth
+- Bank account numbers
+- Mailing addresses
+
+Physical Assets Examples;
+- Paymennt Kiosks
+- Servers
+- Desktop Computers
+- Office spaces
+
+Common Strategies used to manage risks;
+- Acceptance - Accepting a risk to avoid disrupting business continuity
+- Avoidance - Creating a plan to avoid the risk altogether
+- Transference - Transferring risk to a thrid party to manage
+- Mitigatioin - Lessening the impact of a known risk
+
+Threats;
+- is any circumstance or event that can negatively impact assets.
+
+Insider Threats;
+- Staff members or vendors abuse their authorized access to obtain data that may harm an organization.
+
+Advanced Persistent Threats (APTs)
+- A threat actor maintains unauthorized access to a system for an extended period of time.
+
+Risks;
+- is anything that can impact the confidentiality, integrity, or availability of an asset.
+
+Different factors that can affect the likelihood of a risk ot an organization's assets;
+
+- External Risk - Anything outside the organization that has the potential to harm organizational assets, such as threat actors attempting to gain access to private information.
+
+- Internal Risk - A current or former employee, vendor, or trusted partner who poses a security risk
+
+- Legacy System - Old Systems that might not be accounted for or updated, but can still impact assets, such as workstations or old mainframe systems.
+
+- Multiparty risks - Outsourcing work to third-party vendors can give them access to intellectual property, such as trade secrets, software designs, and inventions.
+
+- Software compliance/licensing - Software that is not updated or in compliance, or patches that are not installed in a timely manner.
+
+- Read OWASP for standard documentation
+
+Vulnerabilities;
+- is a weakness that can be exploted by a threat.
+
+Some Vulnerabilities include;
+- ProxyLogon - A pre-authenticated vulnerability that affects the Microsoft Exchange Server. This means a threat actor can complete a user authentication process to deploy malicious code from a remote location
+
+- ZeroLogon - A vulnerability in Microsoft's Netlogon authenticaiton protocol. An authentication protocol is a way to verify a person;s identity. 
+- Netlogon is a service that ensures a user's identity before allowing access to a website's location.
+
+- Log4Shell - Allows attackers to run Java code on someone else's computer or leak sensitive information. It does this by enabling a remote attacker to take control of devices connected to the internet and run malicious code.
+
+- PetitPotam - Affects Windows New Technology Local Area Network (LAN) Manager (NTLM). It is a theft technique that allows a LAN-Based Attacker to initiate an authentication request.
+
+- Security Logging and Monitoring Failures - Insufficient logging and monitoring capabilities that result in attackers exploiting vulnerabilities without the organization knowing it.
+
+- Server-side Request Forgery - Allows attackers to manipulate a server-side application into accessing and updating backend resources. It can also allow threat acots to steal data.
+
 
 
 
