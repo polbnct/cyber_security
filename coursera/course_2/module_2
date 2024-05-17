@@ -52,6 +52,122 @@ NIST S.P 800-53
 - A unified framework for protecting the security of information systems within the federal governement.
 
 5 Core Function;
+
+Identify - The management of cybersecurity risk and its affect on an organization's people and assets
+
+Protect - The strategy used to protect an organization through the implementation of policies, procedures, training, and tools that help mitigate cybersecurity threats.
+
+Detect - Identifying potential security incidents and improving monitoring capabilities to increase the speed and efficiency of detections.
  
+Response - Making sure that the proper procedures are used to contain, neutralize, and analyze security incidents, and implement improvements to the security process.
+ 
+Recover - The process of returning affected systems back to normal operation.
+
+Proactive -> Reactive 
+- Must have an ability to recover to incidents
+
+----
+
+OWASP Security Principles;
+
+OWASP - Open Web Application Security Project
+
+Principles;
+
+- Minimize attack surface area;
+-- Attack surface - refers to all the potential vulnerabilities that a threat actor could exploit.
+
+- Priciple of least privilege;
+-- Main reason is to reduce the damage of a security breach.
+
+- Defense in depth
+-- means that an organization should have multiple security controls that address risks and threats in different ways.
+
+- Separtion of duties;
+-- used to prevent individuals from carrying out fraudulent or illegal activities.
+
+- Keep Security Simple;
+-- when implementing security controls, unnecessarily complicated solutions should be avoided because they can become unmanageable.
+
+- Fix Security Issues Correctly;
+-- Its important to correct any identifies vulnerabilities and conduct tests to ensure that repairs are successful.
+
+Security Principles - are embedded in your daily tasks. Whether you are analyzing logs, monitoring a security information and event management (SIEM) dashboard, or using vulnerability scanner, you will use these principles in some way.
+
+Additional OWASP Security Principles;
+
+- Establish Secure Defaults - This principle means that the optimal security state of an application is also its default state for users; it should take extra work to make the application insecure.
+
+- Fail Securely - means that when a control fails or stops, it should do so by defaulting to its most secure option.
+
+Don't trust service;
+- Many organizations work with third party partners. These outside partners often have different security policies that the organization does.
+- An otganization shouldn't explicitly trust that their partners' systems are secure.
+
+Avoid Security by Obscurity;
+- The security of key systemsm should not rely on keeping details hidden.
+
+------
+Security Audtis - A review of an orgnaization's security controls, policies, and procedures against a set of expectations
+
+Internal Audits;
+
+Purpose;
+- Identify Organizational Risk
+- Assess Controls
+- Correct Compliance Issues
+
+Common Elements;
+- Establishing the scope and goals
+- Conducting a risk assessment
+- Completing a controls assessment
+- Assessing compliance
+- Communicating results
+
+Scope - refers to the specific criteria of an internal security audit
+
+Examples of Scope;
+- Assess user permission
+- Identify Existing Controls, Policies, and Procedures
+- Account for technology currently in use
+
+Goals - are an outline of the organization's security objectives
+
+Examples of Goals;
+- Adhere to the NIST Cybersecurity Framework (CSF)
+- Establish policies and procedures to ensure compliance with regulations
+- Fortify systems control
+
+Risk Assessment - focused on identifying potential threats, risks, and vulnerabilities. This helps organizations consider what security measures should be implemented and monitored to ensure the safety of assets.
+
+Example of Risk Assessment;
+- There is a lack of propert management of physical and digital assets; equipment used to store data is not properly secured; and access to private information in the organization's internal network needs more robust controls in place.
+
+Audit Questions;
+- What is the audit meant to achieve?
+- Which assets are most at risk?
+- Are current controls sufficient to protect those assets?
+- What controls and compliance regulations need to be implemented?
+
+Controls Assessment - Closely reviewing an organization's existing assets, then evaluating potential risks to those assets, to ensure internal controls and processes are effective.
+
+Control Categories;
+- Administrative Controls
+-- relates to the human component of cybersecurity. They include policies and procedures that define how an organization manages data, such as the implementation of password policies.
+
+- Technical Controls
+-- are hardware and software solutions used to protect assets, such as the use of intrusion detection system, or IDS's, and encryption.
+
+- Physical Controls
+-- refers to measures put in place to prevent physical access to protected assets, such as surveillance cameras and locks.
+
+Communication;
+- Summarizes scope and goals
+- Lists existing risks
+- Notes how quickly those risks need to be addressed
+- Identifies compliance regulations
+- Provides recommendations
+
+
 
 
