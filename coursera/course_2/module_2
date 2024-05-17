@@ -1,0 +1,57 @@
+NIST Cyber Security Framework;
+
+Security Frameworks - Guidelines used for building plans to help mitigate risk and threats to data and privacy.
+
+Ex. Social Engineering, Ransomware, etc.
+
+Security Controls;
+- Used to reduce specific risks.
+- Safeguards designed to reduce specific risks.
+
+3 Types of Controls;
+
+Encryption
+- is the process of converting data from a readable format to an encoded format
+- Converting to cypertext / needed to be decrypted to be readable
+
+Authentication
+- Process of verifying who someone or something is
+- MultiFactor Authentication, 2-step verification
+
+-Biometrics
+-- Unique physical characteristics that can be used to verify a person's identity
+-- Fingerprint, Eyescan, etc.
+
+-Exploitation;
+--Vishing - The explotation of electronic voice communication to obtain sensitive information or to impersonate a known source
+- Impersonate person voice to commit a crime.
+
+Authorization;
+- The Concept of granting access to speicifc resources within a system.
+
+CTF (Cyber Threat Framework) - is a government way to provide a common language for describing and communicating information about cyber threat activity.
+- The CTF helps cybersecurity professionals analyze and share information more efficiently.
+
+-------
+
+CIA Triad - A model that helps inform how organizations cosider risk when setting up systems and security policies.
+
+C - Confidentiality
+I - Integrity
+A - Availability
+
+Confidentiality - Only authorized users can access specific assets or data
+
+Integrity - The data is correct, authentic, and reliable
+
+Availability - Data is accessible to those who are authorized to access it.
+
+NIST Cybersecurity Framework (CSF) - A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+
+NIST S.P 800-53
+- A unified framework for protecting the security of information systems within the federal governement.
+
+5 Core Function;
+ 
+
+
