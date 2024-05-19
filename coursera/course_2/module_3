@@ -1,0 +1,17 @@
+Logs and SIEM Tools;
+
+Log - is a record of events that occur within an organization's systems and networks.
+
+3 Common Logs;
+
+Firewall Logs - is a record of attempted or established connections for incoming traffic from the internet.
+
+Network Log - is a record of all computers and devices that enter and leave the network. It also records connections between devices and service on the network.
+
+Server Log - is a record of events related to services such as websites, email, or file shares. It includes actions such as login, password, and username request.
+
+SIEM Tool (Security Information and Event Management) - an application that collects and analyzes log data to monitor critical activities in an organization.
+
+
+
+
