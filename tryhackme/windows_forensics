@@ -9,6 +9,34 @@ The reason why OS is collecting information is to personalized the computer of t
 
 But, the Forensics Investigator takes advantage of this fact and use this information to tally up cases of crimes.
 
+Windows Registry - is a collection of databases that contains the system's configuration data.
+-- This configuration data can be about the hardware, the software, or the user's information.
+
+Registry Hive - is a group of Keys, subkeys, and values stored in a single file on the disk.
+
+Windows Five Root Keys;
+
+1. HKEY_CURRENT_USER
+2. HKEY_USER
+3. HKEY_LOCAL_MACHINE
+4. HKEY_CLASSES_ROOT
+5. HKEY_CURRENT_CONFIG
+
+HKEY_CURRENT_USER - Contains the root of the configuration information for the user who is currently logged on.
+-- The user's folders, screen colors, and Control Panel settings are stored here.
+-- Abbreviated as HKCU
+
+HKEY_USERS - Contains  all the actively loaded user profiles on the computer.
+-- Abbreviated as HKU
+
+HKEY_LOCAL_MACHINE - Contains configuraiton information particular to the computer (for any user)
+-- Abbreviated as HKLM
+
+HKEY_CLASSES_ROOT - Is a subkey of HKEY_LOCAL_MACHINE\Software. The information that is stored here makes sure that the correct program opens when you open a file by using Windows Explorer.
+-- Abbreviated as HKCR
+
+HKEY_CURRENT_CONFIG - Contains information about the hardware profile that is used by the local computer at system startup.
+
 
 
 
