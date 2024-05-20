@@ -39,5 +39,67 @@ Cyber criminals uses RAT's to steal information. Different types of RATs;
 2. Banking Trojans - steals money without you even being aware of it. 
 -- Zeus banking trojan feeds you false data, lulling you into a false sense of security.
 
+Art of Embarrassment - The art of data -theft to annoy and destroy.
 
+Types of Cybercrime;
+
+Hacking: The Primal Cybercrime;
+- is the archetype of all cybercrime. The hacking methods evolved by the hacking community over the last 30years are used by every cyber-criminal.
+
+Intrusion - The use of techniques to break into another computer, and take control. 
+-- The intrusion techniques can be as primitive as guessing a password or as complicated as a cyber-criminal can make it.
+-- The use of zero-day vulnerabilities combined with drive-by infection guarantees that no computer is safe.
+
+Exploitation - Once the computer is compromised, the cyber-criminal cna exploit your computer.
+-- They can download rootkits that hide their software
+-- They can then download RATs, which can watch your every move.
+-- They can download other software that takes control of your computer and turn it into a zombie - part of a botnet of illegally hacked computers that are used by organized crime.
+
+Hostile Takeover - Once a RAT or Botnet clients infrects your computer, you no longer own your computer - somebody else does, who could be thousand of miles away.
+-- Your computer then can be used to send spam, locate other computers to infect or participate in Distributed Denial of Service Attacks - all in your name.
+
+Denial of Service (DDoS) - Message flooding, by opening many channels with the target computer, by sending many packets at the same time, the target computer grinds to a halt. 
+-- The use of botnets to amplify the DDoS attack over thousands, or hundreds of thousands of computers, make things worse.
+
+The Age of Botnets - They steal user information, perform DDoS attacks and send spams.
+
+Internet Mediated Crimes - The knowledge and software uesd to penetrate system security was developed during the golden age of hacking and has now been exploited by cyber-criminals.
+
+Illegal Drugs - There are large number of websites that can allegedly supply drugs to that are illegal in some countries. - usually in "Dark Web"
+
+Pharmaceutical Drugs - Viagra, Valium and other drugs only available by prescription are available on the web.
+
+Online Gambling - Gambling online is illegal in some places and not in others. 
+-- Cybercriminals use this fact to host offshore gambling operations accessible anywhere on the internet.
+
+Online Pornography - Porn is legal in some places and not in others.
+-- Certain types of Porn is Illegal in almost all places (child porn, animal porn and rape porn, for example)
+-- The dark side website should be warned that their credit card details could be stolen and they may be the subject to cyber extortion attempts.
+
+Prostitution - The use of online advertisements to advertise "single hookups" is big business.
+
+Indirect Cost Crimes - Large group of internet crimes whose cost cannot be measured directly.
+
+Spam - is unsolicited bulk email promoting or selling something, often illegal drugs, pornography and other illicit services.
+
+Copyright Violation - It doesn't matter whether it is films, music or software, copyright violation has always been on the internet.
+
+Cyber-stalking - the use of modern internet technologies makes stalking easy. 
+-- social networks, webcams , GPS enabled phone and modern devices can make cyber stalking a known threat.
+
+Cyber Bullying - Using of social networking to bully someone to submission or attempt of suicide.
+
+Pay-per Install - The install of unwanted software on the computers of victims such as adware, toolbars, and so called "registry optimization software."
+
+Direct Cost Crimes - These are the internet crimes where the cost can e measured in terms of the money which has been stolen from the victim.
+
+Cyber Commerce - Where the seller lodges money with a bogus escrow agent only to lose their money and their goods. 
+-- Online auction fraud is also a problem as stolen or counterfeit goods find their way onti the online marketplace. 
+
+Type of Crimwares;
+
+Exploit Kits - is malware, which is a package of known exploits and zero day vulnerabilities. 
+-- These exploits kits are designed to be installed on a malware hosting website. 
+
+---- page 30 continue ---
 
