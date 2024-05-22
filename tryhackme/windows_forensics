@@ -72,6 +72,15 @@ Transaction log for the SAM hive will be located in C:\Windows\System32\Config
 Registry Hives Located in C:Windows\System32\Config and are copied to C:\Windows\System32\Config\Regback directory every ten days.
 -- Excellent place to look if you suspect that some registry keys might have been deleted/modified recently
 
+KAPE - is a live data acquisition and analysis tool which can be used to acquire registry data.
+
+Autopsy - gives you the option to acquire data from both live systems or from a disk image.
+
+FTK Imager - is a similar to Autopsy and allows you to extract files from a disk image or a live system by mounting the said disk image or drive in FTK Imager.
+
+Amcache.hve - is a file that is often necessary to investigae evidence of programs that were last executed.
+
+
 
 
 
