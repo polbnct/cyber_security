@@ -80,7 +80,13 @@ FTK Imager - is a similar to Autopsy and allows you to extract files from a disk
 
 Amcache.hve - is a file that is often necessary to investigae evidence of programs that were last executed.
 
+Tools on Viewing Windows Registry;
 
+Registry Explorer - It can load multiple hives simultaneously and add data from transcation logs into the hive to make a more 'cleaner' hive with more up-to-date data.
+-- also handy on bookmarks option containing forensically important registry keys often sought by forensics investigators
+
+RegRipper - is a utility that takes a registry hive as input and outputs a report that extracts data from some of the forensically important keys and values in that hive.
+-- Both available in CLI and GUI
 
 
 
