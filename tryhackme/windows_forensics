@@ -88,5 +88,14 @@ Registry Explorer - It can load multiple hives simultaneously and add data from 
 RegRipper - is a utility that takes a registry hive as input and outputs a report that extracts data from some of the forensically important keys and values in that hive.
 -- Both available in CLI and GUI
 
+SAM:
+- contains user account information, login information, and group information.
+
+Mainly Located - SAM\Domains\Account\Users
+
+Control Sets - The hives containing the machine's configuration data used for controlling system startup.
+
+
+
 
 
