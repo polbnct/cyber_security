@@ -95,7 +95,11 @@ Mainly Located - SAM\Domains\Account\Users
 
 Control Sets - The hives containing the machine's configuration data used for controlling system startup.
 
+Different Keys with File Extension - .pdf, .jpg, .docx
 
+Registry Explorer - allows us to sort data contained in registry keys quickly.
+
+Shellbag Explorer - shows us the information in an easy-to-use format.
 
 
 
