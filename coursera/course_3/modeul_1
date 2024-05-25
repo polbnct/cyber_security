@@ -1,0 +1,66 @@
+
+IP Addres (Internet Protocol) - A unique string of characters that identifies the location of a device on the internet.
+
+Two Kinds of IP Address;
+
+19.117.63.126
+(IP version 4)
+
+684D:1111:222:3333:4444:5555:6:77
+(IP version 6)
+
+MAC Address - A unique alphanumeric identifier that is assigned to each physical device on a network.
+
+Data Packet - is also referred to as an IP Packet for TCP connections or a datagram for UDP connections.
+
+Router - uses the IP Address to route packets from network to network based on information contained in the IP header of adata packet.
+
+Header Information;
+Communicates;
+-- Source IP Address
+-- Packet Size
+-- Protocol that will be used for the data portion of the packet.
+
+Size of IPv4 header - ranges from 20 to 60 bytes.
+-- first 20 bytes are fixed set of information containing data such as the source and destination IP Address, Header Length, Total Length of the packet.
+--- Last set of bytes can range from 0 to 40 and consists of the portion fields.
+
+Length of Data section of IPv4 packets - can vary greatly in size.
+-- maximum possible size of an IPv4 packet is 65,535
+-- contains message being transferred over the internet, like website information or email text.
+
+13 Fields within the Header of IPv4 Packet;
+
+Version (VER) - this 4 bit components tells receiving  devices what protocol that packet is using.
+
+IP Header Length (HLEN or IHL) - is the packets header length. This value indicates where the packet header ends and the data segment begins
+
+Type of Service (TOS) - Routers prioritize packets for delivery to maintain quality of service on the network. 
+-- Provides the router with this information.
+
+Total Length - this fields communicates the total length of the entire IP Packet, including the header and data.
+
+Identification - Provides a unique identifier for all the fragments of the original IP Packet so that they can be reassembled once they reach their destination.
+
+Flags - This fields provide the routing device with more information about whether the original packet has been fragmented and if there are more fragments in transit.
+
+Fragmentation Offset - fields tells routing devices where in the original packet the fragment belongs.
+
+Time to Live (TTL) - prevents data packets from being forwarded by routers indefinetly.
+-- contains a counter that is set by the source.
+
+Protocol - Files tells the receiving device which protocol will be used for the data portion of the packet.
+
+Header Checksum - fields contains a checksum that can be used to detect corruption of the IP Header in transit.
+-- Corrupted packets are discarded.
+
+Source IP Address - is the IPv4 address of the sending device.
+
+Destination IP Address - is the IPv4 address of the destination device.
+
+Options - allows for security options to be applied to the packet if the HLEN value is greater than five.
+-- Communicates there options to the routing devices.
+
+
+
+
