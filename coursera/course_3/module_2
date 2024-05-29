@@ -36,6 +36,136 @@ Internet Control Message Protocol (ICMP) - is an internet protocol used by devic
 -- used by a receiving device to send a report to the sending device about the data transmission.
 -- commonly used as a quick way to troubleshoot network connectivity and latency by issuing the "ping" command on linux operating system.
 
+Network Address Translations;
+Outgoing Message where the router replace a private source IP Address with its public IP Address and perform the reverse operation for response.
+
+- generally requires a router or firewall to be specifically configure to perform NAT.
+- part of later 2 (internet layer) and layer 3 (transport layer) of the TCP/IP Model
+
+Local Home or Office Network - Have both private IP Address & Public IP Address
+
+Public IP Address - Represents all devices that is in LAN.
+
+Private IP Address;
+- Assigned by the router
+- Unique only within private network
+- No cost to use
+- Address ranges:
+-- 10.0.0.0-10.255.255.255
+-- 172.16.0.0-172.31.225.255
+-- 192.168.0.0-192.168.255.255
+
+Public IP Address;
+- Assigned by ISP and IANA
+- Uniques address in global internet
+- Cost to lease a public IP Address
+- Address ranges:
+-- 1.0.0.0-9.255.255.255
+-- 11.0.0.0-126.255.255.255
+-- 128.0.0.0-172.15.255.255
+-- 172.32.0.0-192.167.255.255
+-- 192.169.0.0-233.255.255.255
+
+Dynamic Host Configuration Protocol (DHCP) - is in the management family of network protocols.
+-- is an application layer protocol used on a network to configure devices.
+-- it works with the router to assign a unique IP Address to each device and provide the addresses of the appropriate DNS Server and default gateway for each device.
+
+Address Resolution Protocol;
+- is mainly a network access layer protocol in the TCP/IP model used to translate the IP Addresses that are found in data packets into the MAC Address of the hardware devices.
+
+-- Keeps track of matching IP and MAC Addresses in an ARP Cache. 
+-- does not have a specific port number since it is layer 2 protocol and port numbers are associated with the layer 7 application layer.
+
+Telnet;
+- is an application layer protocol that is used to connect with a remote system.
+- sends all information in clear text.
+- uses command line prompts to control another device similar to secure shell (SSH), but Telnet can be used to connect to local or remote devices and uses TCP port 23.
+
+Secure Shell;
+- is used to create a secure connection wit ha remote system.
+-- application later protocol provides an alternative for secure authentication and encrypted communication.
+-- SSH Operates over the TCP port 22 and is a replacement for less secure protocols, such as Telnet.
+
+Post Office Protocol (POP);
+- is an application layer (layer 4 of the TCP/IP model) protocol used to manage and retrieve email from a mail server.
+- POP3 is the most commonly used version of POP.
+- TCP/UDP port 110 and encrypted emails use Secure Sockets Layer / Transport Layer Security (SSL/TLS) over TCP/UDP port 995.
+
+Internet Message Access Protocol (IMAP);
+- is used for incoming mail, it downloads headers of emails and the message content.
+- uses TCP port 143 for unencrypted email and TCP port 993 over the TLS protocol.
+
+Simple Mail Transfer Protocol (SMTP);
+- is used to transmit nad route email from the sender to the recipient's address.
+- works with Message Transfer Agent (MTA) software, which searches DNS Servers to resolve email addresses to IP Addresses, to ensure emails reach their intended destination.
+- uses port 25 for unencrypted emails and TCP/UDP port 587 using TLS for encrypted emails.
+- TCP port 25 is often used by high-volume spam. When in turn, SMTP helps regulates spam.
+
+Protocol and Port Numbers;
+- are used by network devices to determine what should be done with the information contained in each data packet once they reach their destination.
+- firewalls are used to filter out unwanted traffic based on port numbers.
+
+Protocols;
+DHCP - UDP port 67 (servers) & UDP port 68 (clients)
+ARP - None
+Telnet - TCP port 23
+SSH - TCP port 22
+POP3 - TCP/UDP port 110(unencrypted) & TCP/UDP port 995 (encrypted, SSL/TLS)
+IMAP - TCP port 143 (unencrypteded) & TCP port 993 (encrypted, SSL/TLS)
+SMTP - TCP/UDP port 25 (unencrypted)
+SMTPS - TCP/UDP port 587 (encrypted, TLS)
+
+
+IEEE 802.11 (WiFi) (Institute of Electrical and Electronics Engineers)
+- A set of standards that define communication for wireless LANs
+
+WiFi Protected Access (WPA);
+- A wireless security protocol for devices to connect to the internet network.
+
+WiFi - refers to a set of standards that define communication for wireless LANs.
+-- is a marketing term commissioned by the Wireless Ethernet Compatibility Alliance (WECA) 
+
+-- belongs to 802.11 family of internet communication standards determined bu the IEEE.
+
+-- it is secured by wireless networking protocols.
+
+-- WPA2 & WPA3
+
+Wired Equivalent Privacy;
+- is a wireless security protocol designed to provide users with the same level of privacy on wireless network connections as they have on wired network connections.
+- developed in 1999 and is the oldest of the wireless security standards.
+
+WPA;
+- developed in 2003 to improve upon WEP, address the security issues presented, and replace it.
+- was always intended to be transitional measure so backwards compatibility could be established with older hardware.
+- WPA encryption algorithm uses larger secret keys than WEPs, making it more difficult to guess the key by trial and error.
+- includes a message integrity check that includes a message authentication tag with each transmission.
+
+WPA2;
+- was released in 2004.
+- improves upon WPA by using Advanced Encryption Standard (AES)
+- uses TKIP
+- uses the Counter Mode Cipher Block Chain Message Authentication Code Protocol (CCMP)
+- security standard for all Wi-Fi transmissions today.
+
+Personal;
+- is best suited for home networks for a variety of reasons.
+- the global passphrase for WPA2 personal version needs to be applied to each individual computer and access point in a network.
+
+Enterprise;
+- is best for business applications
+- provides necesssary security for wireless networks in business settings.
+- offers individualized and centralized control over the Wi-Fi access to a business network.
+
+WPA3;
+- is a secure Wi-Fi protocol and is growing in usage as more WPA3 compatible devices are released.
+- WPA3 Addresses that authentication handshake vulnerability to KRACK attacks, which is present in WPA2.
+- uses Simultaneous Authentication of Equals (SAE), a password-authenticated, cipher-key-sharing-agreement.
+-- this the prevents attackers from downloading data from wireless network connections to their systems to attempt to decode it.
+- has increased encryption to make passwords more secure by using 128-bit encryption, with WPA3-Enterprise mode offering optional 192-bit encryption.
+
+
+
 
 
 
