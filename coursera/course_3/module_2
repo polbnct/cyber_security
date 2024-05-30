@@ -164,6 +164,46 @@ WPA3;
 -- this the prevents attackers from downloading data from wireless network connections to their systems to attempt to decode it.
 - has increased encryption to make passwords more secure by using 128-bit encryption, with WPA3-Enterprise mode offering optional 192-bit encryption.
 
+Firewalls;
+
+Firewall - is a network security device that monitors traffic to and from your network. It either allows traffic or it blocks it based on a defined set of security rules.
+
+Two Kinds of Firewall;
+
+Hardware Firewall - is considered the most basic way to defend against threats to a network.
+-- inspects each data packet before it's allowed to enter the network.
+
+Software Firewall - performs the same functions as a hardware firewall, but it's not a physical device.
+-- software program installed on a computer or on a server.
+-- it analyze all the traffic received by the computer.
+-- it will protect all the devices connected to the server.
+
+Other kinds of Firewalls;
+
+Cloud Based Firewalls or FaaS;
+- are software firewalls hosted by a cloud service provider.
+- will perform security operations on all incoming traffic before it reaches the organization's onsite network.
+-- also protect assets in the cloud.
+
+2 Kinds of States of Firewalls;
+
+Stateful - refers to a class of firewall that keeps track of information passing through it and proactively filters out threats.
+-- Analyzes network traffic for characteristics and behaviours that appear suspicious and stops them from entering the network.
+
+Stateless - referes to a class of firewall that operates based on predefined rules and does not keep track of information from data packets.
+-- Only acts according to preconfigured rules set by the firewall administrator.
+-- Doesn't store analyzed information.
+-- It doesn't discover suspicious trends like a stateful firewall does.
+
+NGFWs (Next Generation Firewalls) - provides even more security that a stateful firewall.
+-- provide inspection of incoming nad outgoing traffic.
+-- performs more in-depth security functions like deep packet inspection and intrusion protection.
+
+Virtual Private Network (VPN) - is a network security device that changes your public IP address and hides your virtual location so that you can keep your data private when you're using a public network like the internet.
+-- Also encrypt your data as it travels across the internet to preserve confidentiality.
+
+Encapsulation - A process performed by a VPN service that protects your data by wrapping sensitive data in other data packets.
+
 
 
 
