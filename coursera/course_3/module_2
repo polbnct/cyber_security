@@ -204,6 +204,67 @@ Virtual Private Network (VPN) - is a network security device that changes your p
 
 Encapsulation - A process performed by a VPN service that protects your data by wrapping sensitive data in other data packets.
 
+Security Zones;
+
+Security Zones - are a segment of a network that protects the internal network from the internet
+-- Part of the security technique that is called network segmentation that divides the network into segments.
+-- Controls who can access different segmenets of a network.
+-- Act as a barrier to internal networks, maintain privacy within corporate groups, and prevent issues from spreading to the whole network.
+
+Oragnizations network is classified into two types of security zones;
+
+Uncontrolled Zone - which is any netwokr outside of the organization's control, lilke the internet.
+
+Controlled Zone - which is a subnet that protects the internal network from the uncontrolled zone.
+Types of networks within controlled zone;
+- Outer Layer is Demilitarized zone, or DMZ, which contains public-facing services that can access the internet
+- DNS servers that provide IP addresses for internet users.
+
+DMZ - acts as a network perimeter to the internal network.
+
+Internal Network - contains private servers and data that the organization needs to protect.
+
+Restricted Zone (inside of internal network) - protects highly confidential information that is only accessible to employees with certain privileges.
+
+Subnetting - is the subdivision of a network into logical groups called subnets.
+-- it works like a network inside a network.
+-- divides up a network address range into smaller subnets within then network.
+-- Allows network professionals and analysts to create a network within their network without requesting another network IP addresses from their internet service provider.
+
+Classless Inter-Domain Routing (CIDR) - is a method of assigning subnet masks to IP addresses to create a subnet.
+-- reduce the number of entries in routing tables and provides more available IP addresses within networks.
+
+Classfull Addressing - was used in the 1980s as a system of grouping UP addressses into classes (Class A to Class E)
+
+Proxy Servers;
+
+Proxy Server - are another system that helps secure networks.
+-- a server that fulfills the request of a client by forwarding them on to other servers.
+
+Foward Proxy Server - A server that regulates and restricts a person's access to the internet.
+
+Reverse Proxy Server - A server that regulates and restricts the internet's access to an internal server.
+
+3 Main Categories of Network Protocols;
+
+Communication Protocols - are used to establish connection between servers.
+Ex. TCP, UDP, and SMTP (Simple Mail Transfer Protocol)
+
+Management Protocols - are used to troubleshoot network issues.
+Ex. ICMP (Internet Control Message Protocol)
+
+Security Protocols - provide encryption for data in transit.
+Ex. IPSec and SSL/TLS
+
+Other Commonly used Protocols;
+
+HTTP (HyperText Transfer Protocol) - is an application layer communication protocol. This allows the browser and the web server to communicate with one another.
+
+DNS (Domain Name System) - is an application layer protocol that translates, or maps host names to IP Addresses.
+
+APR (Address Resolution Protocol) - is a network layer communication protocol that maps IP Addresses to physical machine or a MAC address recognized on the local area network.
+
+
 
 
 
