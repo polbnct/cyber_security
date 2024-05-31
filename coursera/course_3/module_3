@@ -1,0 +1,20 @@
+Intrusion Attack the Compromise the System;
+
+Packet Sniffing - when malicious actors use hardware or software tools to capture and inspect data in transit.
+-- attack that cause damage to an organization's network by inserting malicious code modifications or altering the message and an organization's network by inserting malicious code modifications or altering the message and interrupting network operations.
+
+Backdoor Attacks;
+- is another type of attack you will need to be aware of as a security analyst.
+-- installed by attackers after they've compromised an organization to ensure they have persistent access.
+-- performing DoS attack - is an attack that targets a network or a server and floods it with network traffic.
+
+Impact to an Organization;
+
+Financial - when a system is taken offline with a DoS attack or some other tactic, they prevent a company from performing tasks the generate revenue.
+
+Reputation - Attacks can also have a negative impact on the reputation of an organization. If it becomes public knowledge that a company has experienced a cyber attack, the public may become concerned about the security practice of the organization.
+
+Public Safety - If an attack occurs on a government network, this can potentially impact the safety and welfare of the citizens of a country.
+
+
+
