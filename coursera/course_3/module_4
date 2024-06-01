@@ -1,3 +1,94 @@
+Security Hardening;
+- The process of strengthening a system to reduce its vulnerability and attack surface
+
+Can be conducted on:
+- Hardware
+- Operating Systems
+- Applications
+- Computer Networks
+- Databases
+
+Penetration Test;
+- A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes.
+
+Attack Surface - is all the potential vulnerabilities a threat actor could potentially exploit in a system.
+
+Operating System (OS) - The interface between computer hardware and the user.
+-- imporatnce to secure the OS on each device because one insecure OS could lead to the whole network being compromised.
+
+Ways to secure OS;
+
+Patch Update - A software and operating system update that addresses security vulnerabilities within a program or product.
+
+Baseline Configure (Baseline Image) - A documented set of specifications within a system that is used as a bsais for future builds, releases, and updates.
+
+Strong Password Policy;
+Multi-Factor Authentication (MFA) - A security measure which requires a user to verify their identity in two or more ways to access a system or network.
+
+Removing unused application;
+
+Brute Force Attacks - is a trial-and-error process of discovering private information.
+-- Different types of brute force attacks;
+
+Simple brute force attacks - When attackers try to guess a user's login credentials, its considered a simple brute force attack.
+-- entering any combination of usernames and passwords that they can think of until they find the one that works.
+
+Dictionary attacks - attackers use a list of commonly used passwords and stolen credentials from previous breaches to access a system.
+-- attackers originally uses a list of words from the dictionary to guess the passwords.
+
+Virtual machines (VMs) - are software versions of physical computers. 
+-- provide an additional layer of security for an organization because they can be used to run code in an isolated environment.
+
+Sandbox Environments - is a type of testing environment that allows you to execute software or programs separate from your network.
+-- commonly used for testing patches, identifying and addressing bugs, or detecting cybersecurity vulnerabilities.
+
+Prevention Measures;
+
+Salting and Hashing - Converts information into a unique value that can then be used to determine its integrity.
+-- Salting adds random characters to hashed passwords. (this increase the length and complexity of hash values, making them more secure)
+
+Multi-factor authentication (MFA) and two-factor authentication (2FA) - is a security measure which requires a user to verify their identity in two or more ways to access a system or network..
+
+CAPTCHA and reCAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) - It asks users to complete a simple test that proves they are human.
+
+Password Policies - Guidelines on a good standard of what the password should be in a professional setting.
+
+Network Hardening;
+- Port Filtering 
+- Network Access Privilege
+- Encryption
+
+Network Log Analysis - the process of examining network logs to identify events of interest.
+
+Security Information and Event Management tool (SIEM) - An application that collects and analyzes log data to monitor critical activities in an organization.
+
+Port Filtering - A firewall function that blocks or allows certain port numbers to limit unwanted communication.
+
+Fiewalls - allow or block traffic based on a set of rules.
+-- Firewalls inspect data packets and only allows the ones that have the needed port number.
+
+Intrustion Detection System (IDS) - is an application that monitors system activity and alerts on possible instrusions.
+-- it detect known attacks
+-- discovers anomally
+-- only detects malicious traffic and not defend it
+
+Intrusion Prevention System (IPS) - Monitors the system and takes action to stop malicious activities
+
+Clouds;
+
+Identity Access Management (IAM) - is a tool that are used to manage digital identities in the cloud.
+
+Configuration - is one of the high requirement to the security to not allow any malicious actors to breach the cloud system.
+
+Attack Surface - is entry points on which malware or malicious actors can break into. As the cloud expand more entry points becomes vulnerable making the cloud in need of increase in security measure.
+
+Zero Day Attack - an exploit in a softare or system that are not known by the public or developer.
+
+Cyptography - is one kind of encryption that scrambles the information that is unreadable to anyone that does not have the encryption keys.
+
+
+Cryptographic Erasure - is a way of destroying the decryption keys making the encypted file undecryptable.
+
 
 
 
