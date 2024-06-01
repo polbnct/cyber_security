@@ -16,5 +16,75 @@ Reputation - Attacks can also have a negative impact on the reputation of an org
 
 Public Safety - If an attack occurs on a government network, this can potentially impact the safety and welfare of the citizens of a country.
 
+DoS Attack Goal - is to disrupt normal business oprations by overloading an organization's network.
+-- The goal of the attack is to send so much information to a network device that it crashes or is unable to respond to legitimate users.
+
+Distributed Denial of Service Attack (DDoS) - is a kind of DoS attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic.
+
+-- It doesn't matter which part of a network overloads, if they overload anything they win.
+
+3 common Network Level DoS attacks;
+SYN flood Attack - is a type of DoS attack that simulates the TCP connection and floods the server with SYN packets.
+
+First step of a Handshake - The device send a SYN or synchronize, request to the server. And the server responds with a SYN/ACK packet to acknowledge the receipt of the device's request and leaves a port open for the final step of the handshake.
+-- Once the server receives the final ACK packet from the device, a TCP connection is estalished.
+
+ICMP (Internet Control Message Protocol) - is an internet protocol used by devices to tell each other about data transmission errors across the network.
+
+ICMP Flood Attack - is a type of DoS attack performed by an attacker repeatedly sending ICMP packets to a network server.
+-- this forces the server to send an ICMP packet. That will eventually lead to the crash of the server.
+-- Takes advantage of communication protocols by sending an overwhelming number of request.
+
+Ping of Death Attack - is a type of DoS attack that is caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64 kilobytes. (the maximum size of correctly formed ICMP packet)
+
+Network Protocol Analyzer - sometimes called a packet sniffer or a packet analyzer.
+-- is a tool designed to capture and analyze data traffic within a network.
+
+Common type of Analyzer include:
+- SolarWinds NetFlow Traffic Analyzer
+- ManageEngine OpManager
+- Azure Network Watcher
+- Wireshark
+- tcpdump
+
+tcpdump - is a command-line netowrk protocol analyzer. It is popular, lightweight-meaning it uses little memory and has a low CPU usage-and uses the open-source libpcap library.
+-- is a text based, meaning all commands in tcpdump are executed in the terminal.
+-- provodes a brief packet analysis and converts key information about network traffic into formats easily read by hiumans.
+
+20:00:29.538395.198.168.10.1.41>198.111.123.1.61012:Flags [P.], seq 120:176, ack 1, win 501, options [nop, nop, TS val 4106659748 ecr 2979487360], length 144
+
+20:00:29.538395 - Timestamp - The output begins with the timestamp, formatted as hours, minutes, seconds, and fractions of a second.
+
+198.168.10.1 - Source IP - Packets origin is provided by its source IP address.
+
+41 - Source Port - This port number is where the packet originated.
+
+198.111.123.1 - Destination IP - is where the packet is being transmitted to.
+
+61012 - Destination port - This port number is where the packet is being transmitted to
+
+Packet incldues header - contains receiver's IP address and MAC address.
+
+Packets Body - contain valuable information like names, date of birth, personal message, financial information, and credit cards.
+
+Packet Sniffing - is the practice of using software tools to ovserve data as it moves across a network.
+-- Malicious act of gathering hands on information of others to take advantage of people vulnerabilities.
+
+Passive Packet Sniffing - is a type of attack where data packets are read in transit. 
+
+Active Packet Sniffing - is a type of attack where data packets are manipulated in transit.
+
+IP Spoofing - A network attack performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
+
+Common IP Spoofing Attack;
+
+On-path Attack - An attack where a malicious actor places themselves in the middle of an authorized connection and intercepts or alters the data in transit.
+
+Replay Attack - A network attackperformed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time.
+
+Smurf Attack - A network attack performed when an attacker sniffs an authorized user's IP address and floods it with packets.
+
+
+
 
 
