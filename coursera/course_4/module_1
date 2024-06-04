@@ -30,6 +30,24 @@ Virtual Machine (VM) - is a virtual version of a computer.
 Virualization - is aprocess of using software to create visual representation of various physical machine
 - Uses Virtual CPU, Virtual Storage, and Virtual Hardware.
 
+User Interface - A program that give access and control to the operating system to the user.
+
+GUI vs CLI;
+
+GUI;
+- a start menu with program groups
+- a task bar for launching programs
+- a desktop with icons and shortcuts
+
+-- help you communicate with OS easily
+-- Analogy of ordering foods in the restaurant and not being able to create them yourselve
+
+CLI;
+- no icons or graphics on the screen
+- using command line for control and customization
+
+-- Analogy of creatin whatever meal you want and not being limited to the meal plan.
+
 
 
 
