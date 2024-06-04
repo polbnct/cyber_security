@@ -1,0 +1,35 @@
+Operating Systems - Computer interface of a computer between the users and computer hardware.
+
+Hardware - Physical components of a computer
+
+Most Commmon Operating Systems;
+
+Windows and macOS - Windows is a close-source operating system, which means the source code is not shared freely with the public.
+-- on the other hand, macOS is partially open source, like the macOS kernel, but it have a fair share of close source components.
+
+Linux - is a completely open-source operating system, which means that anyone can access linux and its source code.
+
+ChromeOS - is partially open source and is derived from Chronium OS, which is completely open source.
+-- frequently used in the education field
+
+Android and iOS - are both mobile operating systems.
+-- Android is open source OS, while iOS is partially open source.
+
+Legacy Operating System - is an operating system that is outdated but still being used.
+
+User -> Application -> Operating System -> Hardware
+
+BIOS (Basic Input/Output System); UEFI (Unified Extensible Firmware Interface)
+
+UEFI - are used for increased security.
+
+Both BIOS and UEFI contain booting instruction that are responsible for loading the program called the bootloader.
+-- The bootloader is the one that start the operating system of a computer.
+
+Virtual Machine (VM) - is a virtual version of a computer.
+Virualization - is aprocess of using software to create visual representation of various physical machine
+- Uses Virtual CPU, Virtual Storage, and Virtual Hardware.
+
+
+
+
