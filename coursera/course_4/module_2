@@ -1,0 +1,78 @@
+Linux Gang;
+
+Linux - Open based Operating system.
+
+Linux Architecture;
+
+Application - is a program that performs a specific task
+
+Package Manager - is a tool that helps users install, manage, and remove packages or applications.
+
+Packager - is a piece of software that can be combined with other packages
+
+Shell - command line interpreter
+
+Filesystem Hierarchy Standard (FHS) - The components of the Linus OS that organizes data
+
+Directory - file where the files of the system are stored
+
+Kernel - The component of the Linux OS that manages processes and memory
+
+Hardware - Physical components of the computer
+
+Peripheral devices - hardware devices that are attached in the computer.
+
+Linux Distributions;
+
+Kali Linux;
+- open source distro that are uesd in security industry.
+- have pre-installed application that can be used for pen testing or analyzation
+
+Ubuntu;
+- is an open-source, user-friendly distribution that is widely used in asecurity or other industries.
+- widely known for cloud computing
+
+Parrot;
+- comes with pre-installed tools related to penetration testing and digital forensics
+- considered user-friendly linux distro
+
+Red Hat;
+- subscription-based distribution of linux built for enterprise use.
+- offers support team for customers to call about issues.
+
+CentOS;
+- os that are closed related to Red Hat
+
+Penetration Testing - A simulated attack to indetify gaps and vulnerabilities of the system that are being tested.
+
+Different Packet Managers;
+
+Advanced Package Tool (APT);
+- used in Debian-dervide distribution
+
+Yellowdog Updater Modifier (YUM);
+- most used in red hat-derived distribution
+
+Shell - is a mediator that user use to communicate to the operating system using command line
+
+Different type of Shells;
+
+- Bourne-Again Shell (bash)
+- C Shell
+- Korn Shell (ksh)
+- Enchance C shell (tcsh)
+- Z Shell (zsh)
+
+Bash - is the default shell in most ditributions.
+
+Standard Input - Information received by the OS vianthe command line
+
+echo - is a linux command the input a string based text
+
+String data - cosist of an ordered sequence of characters
+
+Standard Output - Informaiton returned by hte OS through the shell
+
+Standard Error - Error messaged returned by the the OS through the use of Shell
+
+
