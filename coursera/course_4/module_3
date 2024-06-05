@@ -1,3 +1,28 @@
 Module 3 Command Lines
 
+Root Directory - Highest level of directory in Linux
+
+pwd - Prints the working directory onto the screen
+
+cat - displays the content of the file
+
+head- displays the beginning of the file.
+
+tail - displays the end of the file.
+
+less - returns content of a file one page at a time
+
+File Hierarchy Standard (FHS) - is the component of Linux that organizes data.
+
+/home - user home directory
+
+/bin - contains binary files nad other executables. The executable files contain a series of command to run programs and othe funtios of the computer.
+
+/etc - stores the system's configuration files
+
+/tmp - contains temporary files. (commonly used by attackers because anyone can modify data in these files)
+
+/mnt - standards for mount and stores media, such as USB and hard drives
+
+
 
