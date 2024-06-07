@@ -24,7 +24,7 @@ File Hierarchy Standard (FHS) - is the component of Linux that organizes data.
 
 /mnt - standards for mount and stores media, such as USB and hard drives
 
-greap - searches a specified file and returns all lines in the file containing a specified string
+grep - searches a specified file and returns all lines in the file containing a specified string
 
 I (piping) - sends the standard output of one command as standard input to another command for further processing.
 
@@ -40,5 +40,76 @@ ex - find /home/analyst/projects -mtime -3 (returns all files in directories in 
 
 (-mtime +1 or -mtime -1)
 
+mkdir - command that creates a new directory
+
+rmdir - removes, or deletes a directory
+
+touch - creates a new file
+
+rm - remove, or deletes a file.
+
+mv - moves a file
+
+cp - copy a file to another location
+
+nano - is command line editor that is available to most of linux os
+
+Standard input - is information received by the OS via the command line
+
+Standard output - is information returned by the OS to the user
+
+Premission in Linux:
+
+- Read
+- Write
+- Execute
+
+Type of Ownership:
+- User
+- Group
+- Other
+
+Options - Modify the behavior of the command
+
+chmod - changes the permission on files and directories
+(changemod)
+
+Permissions explain;
+
+read - for files, this is the ability to read the file contents
+- be able to read directory
+
+write - for file this is an ability to modify files
+- be able to modify directory
+
+execute - for file this is an ability to execute files
+- be able to enter directory and access its files
+
+user - the owner of the file
+group  - a larger group that the ownder is a part of
+other - all other users on the system
+
+chmod permissions;
+
+u - indicates changes will be made to user permisison
+g - changes will be made in the group permission
+o - changes will be made to other permissions
++ - adds permission to a user, group, or others
+- - removes permission to a user, group, or others
+= - assigns permissions for hte user, group, or others
+
+Root User (or superuser)
+- A user with elevated privileges to modify the system
+
+sudo - temporarily grants elevated permissions to specific users
+
+useradd - adds a user to the system
+userdel - deletes a user from the system
+usermod - command modifiesexisting user accounts
+-- -d changes the user's home directory
+-- -l changes the user's login name
+-- -L locks the account so the user can't log in
+
+chown - command changes ownership of a file or directory.
 
 
