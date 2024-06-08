@@ -112,4 +112,7 @@ usermod - command modifiesexisting user accounts
 
 chown - command changes ownership of a file or directory.
 
+man - shows the manual of the command
+whatis - shows specific purpose of a command
+apropos - searches the manual page descriptions for a specififed string
 
