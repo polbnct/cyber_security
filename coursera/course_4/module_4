@@ -1,0 +1,101 @@
+SQL Queries
+
+Database - An organized collection of information or data
+- Accesssed by multiple people
+- Store massive amounts of data
+- Perform complex tasks while accessing the data
+
+Compared to Spreedsheets;
+- Designed for a single user or a small team
+- Store less data
+
+Relational Database - A structured database containing tables that are related to each other
+
+Primary Key - A column where every row has a unique entry
+-- unique
+
+Foreign Key - A column in a table that is a primary key in a nother table
+-- can have empty values or duplicates 
+
+SQL (Structured Query Language)
+- A programming language used to create, interact with, and request information from a database
+
+Query - A request for data from a database table or a combination of tables
+
+Log - A record of events that occur within an organization's systems
+
+Difference between Linux and SQL filtering;
+
+Linux filtering - filters data in the context of files and directories on a computer
+
+SQL filtering - filter data within a database management system.
+-- used for querying and manipulaitng data stored in tables.
+
+SQL Queries;
+
+SELECT - indicates which columns to return
+FROM - indicates which table to query
+ORDER BY - used ofr organizing the data you extract from a table
+
+
+Syntax - the rules that determine what is correctly structured in a computing language
+
+Basic SQL Queries;
+
+Filtering - Selecting data that match a certain condition
+
+Operator - A symbol or keyword that represents an operation
+
+WHERE - Indicates the condition for a filter
+WHERE country = 'USA'
+Filter 'East%'
+
+% - used to filter patterns
+LIKE - used with where
+
+Wildcard - is a special character that can be substituted with any other character.
+Ex. % or _
+
+SQL Database;
+
+String Data - Data consisting of an ordered sequence of characters
+
+Numeric Data - Data consisting of numbers
+
+Date and time data - Data representing a date and/or time
+
+Common Operators;
+- =
+- >
+- <
+- <>
+- >=
+- <=
+
+BETWEEN - An operator that filters for numbers or dates within a range
+
+Filters with AND, OR, and NOT;
+
+AND - Specifies that both conditions must be met simultaneously
+
+OR - Specifies that either condition can be met
+
+INNER JOIN - Returns row matching on a specified column that exist in more than one table
+
+LEFT JOIN - Returns all of the records of the first table, but only returns rows of the second table that match on a specified column.
+
+RIGHT JOIN - Returns all of the records of the second table, but only returns rows from the first table that match on a specified column.
+
+FULL OUTER JOIN - Returns all records from both tables
+
+Aggregate Functions;
+
+COUNT - returns a single number that represents the number of rows returned from your query.
+
+AVG - returns a single number that represents the average of the numerical data in a column
+
+SUM - returns a single number that represents the sum of the numerical data in a column.
+
+
+
+
