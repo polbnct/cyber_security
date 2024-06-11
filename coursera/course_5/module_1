@@ -1,0 +1,109 @@
+Module 1;
+
+Teams helps on mitigating the risk in a company.
+
+Risk - Anything that can impact the confidentiality, integrity, or availability of an asset (CIA Triad)
+
+Security Plan is based on 3 parts;
+
+- Assets 
+- Threats 
+- Vulnerabilities
+
+-- measuring on the affect of each parts of the security
+
+Asset - an itema perceived as having value to an organization
+-- Building, Idea, People, Data, etc.
+
+Threat - Any circumstance or event that can negatively impact assets.
+
+Vulnerability - A weakness that can be exploted by a threat
+
+Asset Management - The process of tracking assets and the risks that affect them
+-- Asset Inventory - A catalog of assets that need to be protected
+-- Asset classification - The practice of labelling assets based on sensitivity and importance to an organization
+
+Level of Asset Classification;
+
+- Public - can be shown to anyone
+- Internal-Only - can be show to those that are inside the asset
+- Confidential - can only be shared to people that handles the speicifc project
+- Restricted - Highly sensitive assets that must be protected
+
+-- used if an asset can be disclose or destroyed
+
+Most valuable thing in an asset - Data!
+
+Data - Information that is translated, processed, or stored by a computer.
+
+3 Different state on Protecting the Data;
+
+Data in use - Data being accessed by one or more users
+
+Data in transit - Data travelling from one point to another
+
+Data at rest - Data not currently being accessed
+
+Information Security (InfoSec)
+- The practice of keeping data in all states away from unauthorized users.
+
+Cloud;
+
+Softare as a service (SaaS)
+- refers to front-end applications that users access via web browser.
+- The service providers host, manage, and maintain all of the back-end systems for those applications.
+
+Platform as a service (PaaS)
+- refers to back-end application development tools that clients can access online.
+- Developers use these resources to write code and build, manage, and deploy their own apps.
+
+Infrastructure as a service (IaaS)
+- customers are given remote access to a range of back-end systems that are hosted by the cloud service provider.
+- Google Cloud Platoform
+- Microsoft Azure
+
+Cloud Security - is a growing subfield of cybersecurity that specifically focuses on the protection of data, application, and infrastructure in the cloud.
+
+Security Plans;
+
+Types of Risk Categories;
+- Damage
+- Disclosure
+- Loss of Information
+
+Elements of Security Plans;
+- Policies
+- Standards
+- Procedures
+
+Policy - A set of rules that reduces risk and protects information
+
+Standards - References that inform how to set policies
+
+Procedures - Step-by-step instructions to perform a specific security task
+
+NIST Cybersecurity Framework; (CSF)
+- A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+
+3 Main Components of CSF;
+- Core
+- Tiers
+- Profiles
+
+Core five functions;
+- Identify
+- Protect
+- Detect
+- Respond
+- Recover
+
+Tiers - is a component that measure performance across each of the five function of the core.
+-- designed in a way of showing organizations what is and isn't working with their security plans
+
+Profiles - provides the current state of the security plan
+
+Compliance - The process of adhering to internal standards and external regulations
+
+Regulations - Rules set by a government or other authority to control t he way something is done.
+
+
