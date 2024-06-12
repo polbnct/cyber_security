@@ -1,0 +1,62 @@
+Start of Module 2;
+
+Security Controls - Safeguards designed to reduce specific security risks
+
+3 Types of Security Controls;
+- Technical - Technologies used to protect the assests
+- Operational - Maintaining Technologies to protect the assets (people roles)
+- Mangerial - used to reduce the risk of the 2 types of security controls (awareness trainings and policies)
+
+Information Privacy - The protection of unauthorized access and distribution of data.
+
+Principle of least priviledge - The concept of granting access to people at minimal to minimize the risk.
+
+Data owner - The person that decides who can access, edit, or destroy their information.
+
+Data custodian - Anyone or anything that's responsible for the safe handling, transport, and storage of information.
+
+Daata steward - The person or group that maintains and implements data governance policies set by an organization.
+
+Separation of Duties - security concept that divides tasks and responsibilities among different users to prevent a single user to have control over critical business functions.
+
+Usage Audits - reviewing of each account usage and if they comply to security policies of the organization.
+
+Priviledge Audits - assess whether the user role is align to their accessibility of information.
+
+Account change audits - used to make sure that all accounts changes are from the user handling the account.
+
+Data lifecycle;
+5 Stages;
+- Collect
+- Store
+- Use
+- Archive
+- Destroy
+
+Data Governence - is a set of processes that define how an organization manages information.
+
+Information Privacy - refers to the protection of unauthorized access and distribution of data.
+
+Information Security (InfoSec) - refers to the practice of keeping data in all states away from unauthorized users.
+
+Privacy - is about providing people with control over their personal information and how it's shared.
+
+Security - is about protecting people's choices and keeping their information safe from potential threats.
+
+General Data Protectoin Regulation (GDPR) - is a set of rules and regulations developed by the European Union (EU) that puts data owners in total control of their personal information.
+
+Payment Card Industry Data Security Standard (PCI DSS) - is a set of security standards formed by major organizations in the financial industry.
+-- Aims to secure credit and debit card transactions
+
+Health Insurance Portability and Accountability Act (HIPAA) - is a U.S law that requires the protection of sensitive patient health information.
+-- prohibits the disclosure of person medical infromation without hteir consent
+
+Security Assessment and Audits;
+
+Security Audit - is a review of an organization's security controls, policies, and procedures against a set of expectation.
+
+Security Assessment - is a check to determine how resilient current security implementation are against threats.
+
+
+
+
