@@ -58,5 +58,37 @@ Security Audit - is a review of an organization's security controls, policies, a
 Security Assessment - is a check to determine how resilient current security implementation are against threats.
 
 
+Cryptograhpy;
+
+Cipher - An Algorithm that encrypts information
+
+Cryptography - is the process of transforming information into a form that unintended readers cannot understand.
+
+Cryptographic Key - A mechanism that decrypts ciphertext
+
+Brute force attack - A trial and error process of discovering private information
+
+Public Key Infrastructure (PKI) - An encryption framework that secures the exchange of information online.
+
+Asymmetric Encryption - Involves the use of a public and private key pair for encryption and decryption of data.
+
+Symmetric Encryption - involves the use of a single secret key to exchange information
+
+PKI uses two way method;
+- Exchange of encrypted information
+- Establish trust using a system of digital certificates.
+
+Digital Certificate - A file that verifies the identity of a public key holder.
+
+Hash function - An algorithm that produces a code that can't be decrypted
+
+Non-repudiation - The concept that the authenticity of information can't be denied
+
+Rainbow Table - is a file or pre-generated hash values and their associated plain text.
+
+Salting is an additional safeguard that's used to strengthen hash functions. 
+-- is a random string of characters that's added to data before its hashed/
+
+
 
 
