@@ -89,6 +89,36 @@ Rainbow Table - is a file or pre-generated hash values and their associated plai
 Salting is an additional safeguard that's used to strengthen hash functions. 
 -- is a random string of characters that's added to data before its hashed/
 
+Access Control and Authentication Systems;
+
+Access Control - Security controls that manage access, authorization, and accountability of information.
+
+AAA Framework;
+
+- Authentication
+-- who are you?
+-- Single Sign-on (SSO) - A technology that combines several different logins into one
+-- Multi-factor Authentication (MFA) - A security measure which requires a user to verify their identity in two or more ways to access a system or network.
+
+- Authorization
+-- what the user is allowed to do
+-- Separation of duties - The principle that users should not be given levels of authorization that would allow them to misuse a system
+
+HTTP uses Basic auth - The technology used to establish a user's request to access a server.
+
+OAuth - An open-stadard authorization protocol that shares designated access between application.
+
+API token - A small block of encrypted code that contains information about a user.
+
+- Accounting
+-- who accessed the system?
+
+-- Session - A sequence of network HTTP basic auth request and responses associated with the same user.
+-- Session ID - A unique token that identifies a user and their device while accessing the system.
+-- Session Cookie - A token that websites use to validate a session and determine how long that session should last.
+
+-- Session Hijacking - an event when attackers obtain a legitimate user's session ID
+
 
 
 
