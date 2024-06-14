@@ -1,0 +1,16 @@
+Introduction with Logs;
+
+Logs - are a record of events within a system.
+
+-- what the system have been doing, capturing wide range of events such as user logins, file accesses, system errors, network connections, and changes to data or system configuration.
+
+Logs answers the questions;
+
+- What happened?
+- When did it happen?
+- Where did it happen?
+- Who is responsible?
+- Were their actions sucessfull?
+- What was the result of their action?
+
+

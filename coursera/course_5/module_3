@@ -1,0 +1,109 @@
+Start of Module 3
+
+Vulneratbility - is a weakness that can be exploited by a threat
+
+Exploit - A way of taking advantage of a vulnerability
+
+Vulnerability Management - The process of finding and patching vulnerabilities
+
+1. Identify vulnerabilities
+2. Consider potential exploits
+3. Prepare defenses against threats
+4. Evaluate those defenses
+
+Zero-day - An exploit that was previously unknown
+
+Defense in depth - A layered approach to vulnerability management that reduces risk.
+
+Strategy;
+
+1. Perimeter layer - like authenticaiton systems that validate user access
+2. Network Layer -which is made up of technologies like network firewalls and others
+3. Endpoint Layer - which describes devices on a network, like laptops, desktops, or servers
+4. Application Layer - which involves the software that users interact with
+5. Data Layer - which includes any infromation that's stored, in transit, or in use.
+
+Exposure - A mistake that can be explouted by a threat
+
+Common Vulnerabilities and Exposures list (CVE list) - A nopenly accessible dictionary of known vulnerabilities and exposures.
+
+MITRE - A collection of non-profit research and development centers
+
+CVE Numbering Authority (CNA) - An organization that volunteers to analyze and distribute information on eligible CVEs
+
+CVE list criteria;
+- Independent of other issues
+- Recognize as a potential security risk
+- Submitted with supporting evidence
+- Only affect one codebase
+
+Common Vulnerability Scoring System (CVSS) - A measurement system that scores the severity of a vulnerability
+
+Open Worldwide Security Project (OWASP) - is a non profit foundation that works to improve the seucrity of software.
+-- online platform that security professionals from around the world to gather information.
+
+OWASP Top 10 - new or custom made software.
+
+Common Vulnerabilities;
+
+Broken Access Control - Failures in these mechanism can lead to unauthorized infromation disclosure, modification, or destruction.
+-- can also give unauthorized access to other business applications.
+
+Cyptographic Failures - Vulnerabilities occur when business fail to encrypt things like PII (using weak hashing algorithm, mD5, more prone to data breach)
+
+Injection - Injection attacks can give threat actors a backdoor into an organization's information systems.
+-- common in websites.
+
+Insecure Design - refers to a wide range of missing or poorly implemented security controls that should have been programmed into an application when it was being developed.
+
+Security Misconfigure - occurs when security settings aren't properly set or maintained.
+
+Vulnerable and outdated components - is a category that mainly relates to application development.
+
+Identification and Authentication Failures - when application fail to recognize who should have access and what they're authorized to do, it can lead to serious problems.
+
+Software and data integrity failures - are instances when updates or patches are inadequately reviewed before implementaion.
+
+Security logging and monitoring failures - Having no records of logs that can be used to trace back the event.
+
+Server-side request forgery - When attackers manipulate the normal operations of a server to read or update other resources on that server.
+
+Information - refers to the collection of raw data or facts about a specific subject.
+
+Intelligence - refers to the analysis of information to produce knowledge or insights that can be used to support decision-making.
+
+Vulnerability Assessment - The internal review process of an organization's security systems.
+
+Vulenrability Assessment Process;
+
+1. Identification
+2. Vulnerability Analysis
+3. Risk Assessmen
+4. Remediation
+
+Vulnerability Scanner - is software that automatically compares known vulnerabilities and exposures against the technologies on the network.
+
+External Scans - scan test the perimeter layer outside of the internal network.
+Internal Scans - starts from the opposite end by examining an organization's internal systems.
+
+Authenticated Scans - might test a system by logging in with a real user account or even with an admin account.
+Unauthenticated Scans - simulate external threat actors that do not have access to your business resources.
+
+Limited Scans - analyzes particular devices on a network, like searching for misconfigurations on a firewall.
+Comprehensive Scans - analyze all devices connected to a network. -- operating systems, user databases, and more.
+
+Patch Update - is a software and operating system update that addresses security vulnerabilities within a program or a product.
+
+Penetration Testing - is a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and process.
+
+3 Common types of penetration testing;
+
+Open-box Testing - is when the tester has the same priviledge access that an internal developer would have- information like system architecture, data flow, and network diagrams.
+
+Closed-box Testing - is when the tester has little to no access to internal systems-similar to a malicious hacker.
+
+Partial knowledge Testing - is when the tester has limited access and knowledge of an internal system -for example, a customer service representative.
+
+
+
+
