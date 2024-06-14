@@ -119,6 +119,18 @@ API token - A small block of encrypted code that contains information about a us
 
 -- Session Hijacking - an event when attackers obtain a legitimate user's session ID
 
+Authorization Granting;
+
+Mandatory Access Control (MAC);
+- One of the strictest of the three frameworks. 
+- Access to information must be grandted manually by acentral authority or system administrator.
+
+Discretionary Access Control (DAC);
+- is typically applied when a data owner decides appropriate level of access.
+
+Role-Based Access Control (RBAC);
+- is used when authorization is determined by a user's role within an organization.
+
 
 
 
