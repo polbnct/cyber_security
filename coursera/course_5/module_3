@@ -105,5 +105,72 @@ Closed-box Testing - is when the tester has little to no access to internal syst
 Partial knowledge Testing - is when the tester has limited access and knowledge of an internal system -for example, a customer service representative.
 
 
+Attack Surface - All the potential vulnerabilities that a threat actor can exploit in the system.
+
+Security Hardening - The process of strengthening a system to reduce its vulnerabilities and attack surface
+
+Simulating Threats; 
+
+Proactive Simulation - assume the role of an attacker by exploiting vulnerabilities and breaking through defenses.
+
+Reactive Simulation - assume the role of a defender responding to an attack.
+
+Threat Actors - Any person or group who presents a security risks.
+
+Five Categories of Threat actor;
+
+Competitors - refers to rival companies who pose a threat because they might benefit from leaked information.
+
+State Actors - are government intelligence agencies 
+
+Criminal Syndicates - refer to organized groups of people who make money from criminal activity.
+
+Insider Threat - can be individual who has or had authorized access to an organization's resources.
+
+Shadow IT - refers to individuals who use technologies that lack IT governance.
+
+
+Advance Persistent Threat (APT) - refers to instances when threat actor maintains unauthorized access to a system for an extended period of time.
+
+
+Attack Vectors - The pathways attackers use to penetrate security defenses.
+
+Practicing an Attacker Mindset;
+1. Identify a target
+2. Determine how the target can be accessed
+3. Evaluate attack vectors that can be exploited
+4. Find the tools and methods of attack
+
+Defending Attackers;
+1. Educating users
+2. Applying the principle of least priviledge
+3. Using the right security controls and tools
+4. Building a diverse security team
+
+Brute force attack;
+
+Simple Brute Force - are an approach in which attackers guess a user's login credentials.
+
+Dictionary attacks - are a similar technique except in these instances attackers use a list of commonly used credentials to access the system.
+
+Reverse brute force - are similar to dictionary attacks, except they start with a single credential and try it in various system until a match is found.
+
+Credential stuffing - is a tactic in which attackers use stolen login credentials from previous data breaches to access user accounts at another organization.
+
+Tools that Attackers use;
+- Aircrack-ng
+- Hashcat
+- John the Ripper
+- Ophcrack
+- THC Hydra
+
+Prevention Measures;
+- Hashing and Salting
+- Mult-factor authentication (MFA)
+- CAPTCHA
+- Password policies
+
+
+
 
 
