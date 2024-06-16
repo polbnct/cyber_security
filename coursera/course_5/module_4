@@ -1,0 +1,107 @@
+Social Engineering;
+
+Social Engineering - A manipulation technique that exploits human error to gain private information, access, or valuables.
+
+Stages of Social Engineering;
+1. Prepare
+2. Establish Trust
+3. Use persuasion tactics
+4. Disconnect from the target
+
+Preventing Social Engineering;
+- Implementing Mangerial controls
+- Staying infomed trends
+- Sharing your knowledge to each others
+
+Common type of social engineering;
+- Baiting - is a social engineering tactic that tempts people into compromising their security
+
+- Phishing - is the use of digital communication to trick people into revealing sensitive data or deploying malicious software.
+
+-Quid pro quo - is a type of baiting used to trick someone into believing that they'll be rewarded in return for sharing access, information, or money.
+
+-Tailgaiting - is a social engineering tactic in which unauthorized people follow an authorized person into a restricted area.
+
+-Watering hole - is a type of attack when a threat actor compromises a website frequently visited by a specific group of users.
+
+Phishing - The usue of digital communcation to trick people into revealing sensitive data or deploying malicious software.
+
+Phishing kit - A collection of software tools needed to launch a phishing campaign
+
+Phishing kits;
+- Malicious attachments
+- Fake data forms
+- Fraudulent web links
+
+Smishing - The use of text messages to obtain sensitive information or to impersonate a know source
+
+Vishing - The exploitation of electronic voice communication to obtain sensitive information or impersonate a know source
+
+Angler Phishing - is a technique where attackers impersonate customer service representative on social media.
+
+
+Malware;
+- Software designed to harm devices or networks
+
+5 Common types of Malware;
+
+1. Virus - Malicious code written to intefere with computer operations and cause damage to data and software.
+2. Worm - Malware that can duplicate and spread itself across systems on its own
+-- no need to execute
+
+3. Trojan - Malware that looks like a legitimate file or program 
+
+4. Ransomware - Type of malicious attack where attackers encrypt an organization's data and demand payment to restore access
+
+5. Spyware - Malware that's used to gather and sell information without consent
+
+Cryptojacking - A form of malware that installs software to illegally mine cryptocurrencies
+
+Intrusion Detection Systems (IDS) - An application that monitors system activity and alerts on possible intrusions.
+
+
+Web-based exploits;
+- Malicious code or behavior that's used to take advantage of coding flaws in a web application
+
+Injection attack - Malicious code inserted into a vulnerable application
+
+Cross-site scripting - An injection attack that inserts code into a vulnerable website or web application
+
+3 Types of cross-site scripting attacks;
+1. Reflected
+2. Stored
+3. DOM-based
+
+Reflected XSS attack - An instance when malicious script is sent to a server and activated during the server's response.
+
+Stored XSS attack - An instance when malicious script is injected directly on the server
+
+DOM-based XSS attack - An instance when malicious script exist in the webpage a browser loads
+
+SQL - A programming language used to create, interact with, and request infromation from a database
+
+SQL Injection - An attack that executes unexpected queries on a database
+
+Ways to avoid SQL Injection;
+
+Prepared Statement - A coding technique that executes SQL statements before passing them on to the database.
+
+Input Sanitization - Programming that removes user input which could be interpreted as code
+
+Input Validation - Programming that ensures user input meets a system's expectations.
+
+3 Main types of SQL Injections;
+
+- In-band SQL injection - is the most common type of SQL Injection.
+-- The one that uses the same communication channel to launch the attack and gather the results.
+
+- Out-of-Band injection - is one that uses a difference communication channel to launch the attack and gather the result.
+
+- Inferential SQL injection - occurs when an attacker is unable to directly see the results of their attack.
+-- They can interpret the results by analyzing the bahavior of the system.
+
+
+
+
+
+
