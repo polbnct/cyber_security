@@ -101,6 +101,41 @@ Input Validation - Programming that ensures user input meets a system's expectat
 -- They can interpret the results by analyzing the bahavior of the system.
 
 
+Threat Modeling - The process of indetifying assets, their vulnerabilities, and how each is exposed to threats.
+
+6 Steps of Threat Modeling;
+
+1. Define the scope
+2. Identifying Threats
+3. Charactirized the Environment
+4. Analysze threats
+5. Mitigate Risks
+6. Evaluate Findings  
+
+Attack tree - is a diagram that maps threats to assets.
+
+PASTA - Process for Attack Simulation and Threat Analysis;
+- A popular threat modeling framework that's used across many industries
+
+7 Stages threat modeling;
+
+1. Define business and security objectives
+2. Define the technical scope
+3. Decompose the Application
+4. Perform a Threat Analysis
+5. Perform a vulnerability analysis
+6. Conduct Attack Modelling
+7. Analyze risk and impact
+
+STRIDE - is a threat-modeling framework developed by Microsoft.
+-- Commonly used to identify 6 specific attack vectors
+-- Spoofing, Tampering, Repudiation, Information Disclosue, Denial of Service, and Elevation of Privilege
+
+Trike - is an open source methodology and tool that takes a security-centric approach to threat modeling.
+-- commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.
+
+VAST - Modeling framework is part of an automated threat-modeling platform called ThreatModeler.
+-- Visual, Agile, and Simple Threat
 
 
 
