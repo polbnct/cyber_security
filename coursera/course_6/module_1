@@ -48,6 +48,79 @@ Elements of an Incident plan;
 - System Information
 - Other documents
 
+Documentation - Any form of recorded content that is used for a specific purpose
+
+Types of Documentation;
+
+- Playbooks
+- Incident handler's journal
+- Policies
+- Plans
+- Final reports
+
+Playbook - A manual that provides details about any operational actions
+
+Wordprocessor for Documentaion;
+- Google docs
+- OneNote
+- Evernote
+- Notepad++
+
+Intrusion Detection System (IDS) - An application that monitors system and network activity and produces alerts on possible intrusions
+-- Detect potential malicious activity and generate an alert once such activity is detected.
+-- Don't prevent the intrusion, as it relies for individuals to investigate and act to stop the alert.
+
+Intrusion Prevention System (IPS) - An application that monitors system activity for intrusions and take action to stop the activity
+-- Takes action to prevent / stop the malicious activity and minimize its effect
+
+Endpoint Detection and Response (EDR) - is an application that monitors an endpoint for maliciouis activity.
+Endpoint - is any device connected on a network (computers, phones, tablets, and more)
+-- do behavioral analysis to to identify threat patterns happening in an endpoint
+-- uses automation to stop attacks without manual intervention of security professional
+
+Popular Tools that both use IDS and IPS;
+- Snort
+- Zeek
+- Kismet
+- Sagan
+- Suricata
+
+SIEM Process;
+- Collect and aggregate data
+-- collects data from firewalls, servers, routers and more and compile it in a data known as logs
+-- aggregate the data collected in one location to eliminate the manual reviewing and analyzing event by accessing individual data sources. (by making all data accessible in one location)
+Parsing maps - data according to their fields and their corresponding values.
+
+- Normalize Data
+-- Converts data into a standard, structured format that is easily searchable.
+
+- Analyze data
+-- Analysis are being done using detection logic such as a set of rules and condition.
+-- if any data matches the rules it is then being sent out to cyber security professional
+
+Security orchestration, automation, and response (SOAR) - A collection of applications, tools, and workflows that uses automation to respond to security events
+
+Log analysis - is the process of examining logs to identify event of interest.
+
+Advantages of SIEM Tools;
+
+Access to event data - SIEM tools provide access to the event and activity data that happens on a network, including real-time activity.
+-- SIEM have an ability to ingest all of the data so that it can be accessed.
+
+Monitoring, detecting, and alerting - SIEM tools continiously monitor systems and networks in real-time.
+-- They analyze the collected data using detection rules to detect malicious activity
+
+Log Storage - SIEM tool cna act as a system for data retention, which can provide access to historical data.
+
+Most Common SIEM tools;
+- AlienVault OSSIM
+- Chronicle 
+- Elastic
+- Exabeam
+- IBM QRadar Security Intelligence Platform
+- LogRhythm
+- Splunk
+
 
 
 
