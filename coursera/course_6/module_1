@@ -1,0 +1,53 @@
+NIST CSF
+
+Incident Response Lifecycle;
+- Preparation
+- Detection & Analysis
+- Containment Eradication & Recovery
+- Post Incident Activity
+
+Incident - An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or na information system.
+
+Event - An overvable occurence on a network, system, or device.
+
+All incident security are event but not all event are security incident
+
+The 5W's of an incident;
+- Who triggered the incident
+- What happened
+- When the incident took place
+- Where the incident took place
+- Why the incident occurred
+
+Incident Handler's Journal;
+- A form of dodcumentation used in incident response
+
+Computer Security Incident Response Teams (CSIRT) - A specialized group of security professionals that are trained in incident management and response
+
+Roles in CSIRT;
+- Security Analyst
+- Technical Lead
+- Incident Coordinator
+
+Command - refers to having the appropriate leadership and direction to oversee the response.
+
+Control - refers to the ability to manage technical aspects during incident response, like coordinating resources and assigning tasks
+
+Communication - refers to the abilitiy to keep stakeholder informed
+
+Elements of a Security Plan;
+
+- Policies
+- Standards
+- Procedures
+
+Incident Response Plan - A document that outlines the procedures to take in each step of incident response
+
+Elements of an Incident plan;
+- Incident Response Procedures
+- System Information
+- Other documents
+
+
+
+
