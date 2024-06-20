@@ -1,0 +1,55 @@
+Importance of Network;
+
+Network traffic - The amount of data that moves across a network
+
+Network Data - The data that's transmitted between devices on a network
+
+Indicators of Compromise (IOC) - Obervable evidence that suggest signs of a potential security incident
+-- Data exfiltration - Unauthorized transmission of data from a system
+
+Network Monitoring - maintaing situational awareness of any activity on a network
+
+Flow - refers to the movement of network communications and includes information related to packets, protocols, and ports.
+
+Command and Control (C2) - are the techniques used by malicious actors to maintain communicaiton with compromised systems
+
+Packet Payload Information - Organizations can monitor the payload information of packets to uncover unusual activity, such as sensitive data transmitting outside of the network, which could indicate a possible data exfiltration
+
+Temporal Patterns - Understanding the patterns of network traffic
+
+Defensive Measure for Data Exfiltration;
+- Prevent attacker access
+- Monitor network activity
+- Protect assets
+- Detect and stop the exfiltration
+
+Components of a packets;
+- Header - provide information that's used to route packets to their destination
+
+- Payload - actual data being delivered
+
+- Footer - to provide error-checking information to determine if data has been corrupted.
+
+Packet Sniffing - is the practice of capturing and inspecting data packets across a network
+
+Packet capture (P-cap);
+- A file containing data packets intercepted from an interface or network
+
+Data Packet - is a basic unit of information that travels from one device to another within a network
+
+Network Interface Card (NIC) - is a hardware that connects computeres to a network (receive and transmit network traffic)
+
+Libraries and Format of P-cap;
+
+Libpcap - is a packet capture library designed to be used by Unix-like systems, like Linux and macOS.
+
+WinPcap - is an open-source packet capture library designed for devices running Windows operating systems
+
+Npcap - is a library designed by the port scanning tool Nmap that is commonly used in Windows operating system
+
+PCAPng - is a modern file format that can simultaneously capture packets and store data.
+
+
+
+
+
