@@ -49,6 +49,41 @@ Npcap - is a library designed by the port scanning tool Nmap that is commonly us
 
 PCAPng - is a modern file format that can simultaneously capture packets and store data.
 
+IPv4 - Most commonly used version of IP;
+
+Header 13 fields;
+
+- Version - This field indicates the IP version.
+- Internet Header Length (IHL) - This field specifies the length of the IPv4 header including any options
+- Type of Service (ToS) - This field provides information about packet priority for delivery
+- Total Length - This field specifies the total length of the entire IP packet including the header and the data
+- Identification - Packets that are too large to send are fragmented into Smaller pieces
+-- This field specifies a unique identifier for fragments of an original IP packet so that they can be reassembled once they reach their destination
+- Flags - This field provides information baout packet fragmentation including whether the original packet has been fragmented and if there are more fragments in transit
+- Fragment Offset - this field is used to identify the correct sequence of fragments
+- Time to Live (TTL) - this field limits how long a packet can be circulated in a network, preventing packets from being forwarded by routers
+- Protocol - This field specifies the protocol used for the data portion of the pakcet.
+- Header Checksum - This field specifies a checksum value which is used for error-checking the header
+- Source Address - This field specifies the destination address of the receiver
+- Options - This field is optional and can be used to apply security options to a packet
+
+IPv6 - adoption has been iincreasing because of its large address spaces.
+
+Header 8 fields;
+- Version - This field indicates the IP version. 
+- Traffic class - This field is similar to the IPv4 Type of Service field.
+-- provides information about the packet's priority or class to help with packet delivery
+- Flow label - This field identifies the packets of a flow
+- Payload Length - This field specifies the length of the data portion of the packet
+- Next Header - This field indicates the type of header that follows the IPv6 header such as TCP
+- Hop Limit - Limits how long a packet can travel in a network before being discarded
+- Source Address - This field specifies the source address of the sender
+- Destination Address - This field specifies the destination address of the receiver.
+
+Tcpdump - is a command-line network protocol analyzer.
+
+
+
 
 
 
