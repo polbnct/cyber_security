@@ -29,6 +29,49 @@ Indicators of Attack (IoA) - Are the series of observed events that indicate a r
 
 Crowdsourcing - is the practice of gathering information using public input and collaboration
 
+Documentation;
+- Is any form of recorded content that is used for a speicfic prupose, and it is essential in the field of security
+
+Benefits of Documentation;
+- Transparencey - is critical for demostrating compliacnce with regulations and internal processes, meeting insurance requirements, and for legal proceedings
+- Standardization - repeatable processes and procedures supports continuous improvement efforts, helps with knowledge transfer, and facilitates the onboarding of new team members.
+- Clarity - Clear documentation helps people quickly access the information they need so they can take necessary action
+
+Chain of Custody - The process of documenting evidence possession and control during an incident lifecycle
+
+Broken Chain of Custody - Inconsistencies in the collection and logging of evidnece in the chain of custody
+
+Chain of Custody Establish;
+- Integrity
+- Reliability
+- Accuracy
+
+Playbook - A manual that provides details about any operational action
+
+Types of Playbooks;
+
+1. Non-automated
+2. Automated
+3. Semi-Automated
+
+Triage - The prioritizing of incidents according to their level of importance or urgency
+
+Triage Process;
+1. Receive and Assess - The analyst verify the validity and ensure they have complete understanding of the alert.
+2. Assign Priority - Once verified the incident must be assigned a priority. Incident differs in their impact, size, and scope, which affects the response efforts.
+3. Collect and Analysis - Analyst performing a comprehensive analysis of the incident.
+
+Containment - The act of limiting and preventing additional damage caused by an incident
+Eradication - The complete removal of the incident elements from all affected systems
+Recovery - The process of returning affected systems back to normal operations
+
+Business Continuity Plan (BCP) - is a document that outlines the procedures t osustain business operations during and after a significant disruption.
+
+Post-Incident Activity Phase - The process of reviewing an incident to idnetify areas for improvement during incident handling
+
+Final Report - Documentation that provides a comprehensive review of an incident
+
+
 
 
 
