@@ -1,0 +1,34 @@
+Incident Detection and Verification;
+
+Analysis - The investigatioin and validation of alerts.
+
+Challenge with Detection;
+
+- Impossible to detect everything
+- High volume Alerts
+
+Detection and Analysis Phase - Of the incident repsonse lifecycle, security teams are notified of a possible incident and work to investigate and verify the incident by collecting and analyzing data.
+
+Threat Hunting - Is the proactive search for threats ona network.
+-- Security professionals use threat hunting to uncover malicious activity that was not identified by detection tools and as way to do further analysis on detection
+
+Threat Intelligence - which is evidence-based threat information that provides context about existing or emerging threats.
+
+-- Industry reports - These often include details about attacker's tactics, techniques, and procedures (TTP)
+-- Government Advisories - Similar to industry reports, government advisories include details about attackers TTP
+-- Threat data feed - provide a stream of threat related data that can be used to help protect against sophisticated attackers like Advance Persistent Threats (APTs)
+
+Cyber Deception - Involves techniques that deliberately deceive malicious actors with the goal of increasing detection and improving defensive strategies
+
+Honeypots - are an example of an active defense mechanism that use deception technology
+-- are systems or resources that are created as decoys vulnerable to attacks with the purpose of attracting potential intruders
+
+Indicators of Compromise (IoCs) - are observable evidence that suggest signs of a potential security incident
+
+Indicators of Attack (IoA) - Are the series of observed events that indicate a real-time incident
+
+Crowdsourcing - is the practice of gathering information using public input and collaboration
+
+
+
+
