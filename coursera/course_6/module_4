@@ -74,6 +74,14 @@ NIDS Components;
 -- Protocols
 -- Traffic Directions
 
+Log ingestion - is the process of collecting and importing data from log sources into a SIEM tool.
+
+YARA-L - A computer language used to create rules for searching through ingested log data.
+
+Types of Search;
+1. UDM Search
+2. Raw Log
+
 
 
 
