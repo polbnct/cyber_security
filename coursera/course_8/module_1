@@ -1,0 +1,28 @@
+Security Mindset;
+- the ability to evaluate risk and constantly seek out and identify the potential or actual breach of a system, application, or data.
+
+Public Data;
+- This data classification does not need extra security protection
+- is already accessible to the public and poses a minimal risk to the organization if viewed or shared by others.
+
+Private Data;
+- Higher security level
+- is information that should be kept from the public
+
+Sensitive Data;
+- This information must be protected from everyone who does not have authorized access.
+
+Sensitive Data;
+- Includes personally Identifiable Information (PII), Sensitive Personally Identifiable Information (SPII), and protected health information (PHI)
+
+Confidential Data;
+- Is important for an organization's ongoing business operations.
+- Often has limits on the number of people who have access to it.
+
+Asset Classification - Means labelling assets based on sensitivity and importance to an organization.
+-- Classification of an orgnazation's assets ranges from low to high-level.
+
+BUsiness Continuity Plan - is a document that outlines the procedures to sustain business operations during and after a significant disruption,
+
+Disaster Recovery Plan - allows and organization's security team to outline the steps needed to minimize the impact of a security incident, such as sucessful ransomware attack that has stopeed the manufacturing team from retrieving certain data.
+
