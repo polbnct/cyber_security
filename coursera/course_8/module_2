@@ -1,0 +1,26 @@
+Incident Escalation - The process of identifying a potential security incident, triaging it, and handling it off to a more experienced team member.
+
+Security Incident Escalation - is the process of identifying a potential security incident.
+
+Malware Infection - An incident type that occurs when malicious software designed to disrupt a system infiltrates an organization's computers or network.
+
+Unauthorized Access - An incident type that occurs when an individual gains digital or physical access to a system or application without permission.
+
+Improper Usage - An incident type that occurs when an employee of an organization violates the organization's acceptable use policies.
+
+Data Owners - is the person that decides who can access, edit, use, or destroy their information.
+
+Data Controllers - determine the procedure and purpose for processing data.
+-- this role largely focuses on collecting the personal information of customers.
+
+Data Processors - report directly to the data controller and are responsible for processing the data on behalf of the data controller.
+
+Data Custodian - assign and remove access to software or hardware.
+
+Data Protection Officers (DPO's) - are responsible for monitoring the internal compliance of an organization's data protection procedures.
+
+Escalation Policy - A set of actions that outline who should be notified when an incident alert occurs and how that incident shuld be handled.
+
+
+
+
