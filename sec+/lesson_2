@@ -57,6 +57,29 @@ Preventing Shoulder Surfing;
 - Keep your monitor out of sight (Away from windows and hallways)
 - Be careful on the people around you
  
+Computer Hoaxes;
+- A threat the doesn't actually exist, but they seem like they could be real
+- Consumed a lots of resources
+- Hoaxes that will take your money
+- Often an Email, Websites, etc.
+- A hoax about a virus can waste much time
 
+Prevent Hoaxing;
+- Believe no one in the internet
+- Cross reference;
+-- hoax-slayer.net
+-- snopes.com
+- Use Spam filters
+- If its sounds too good to be true
+
+Watering Hole Attack;
+- Threat actor doing a research and infecting network location on where your team is going 
+- Infecting the third part sites through site vulnerability and email attachments
+- Infect all visitors 
+
+Defense on attack;
+- Good Firewall and IDS
+- Add Layered defense in your computer
+- Anti-virus / Anti-malware signature updates
 
 
