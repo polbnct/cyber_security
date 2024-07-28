@@ -7,8 +7,75 @@ Man in the Browser;
 - The calls are coming from inside the browser
 - Malware/Trojan does all of the proxy work
 - Relatively easy to proxy encrypted traffic
+--------------------------------------------------------
+Buffer Overflows; 
+- Overwriting a buffer of memory
+-- Spills over into other memory areas
+-- Developers need ot perform bounds checking
 
+- Extending past 8bits, and dumping the allocated memory
+--------------------------------------------------------
+Code Injection;
+- Adding your own information into a data stream
+- Badly programm submission or without sanitization
+- Many different data types: HTML, SQL, XML, LDAP, etc
 
+-> Structured Query Language: Most common relational database management system language
+
+-> SQL Injection;
+-- Modifying SQL requests
+
+-> Extensible Markup Language
+-- A set of rules for data transfer and storage
+-- Modifying XML requests - a good applicaiton will validate
+
+-> Lightweight Directory Access Protocol
+-- Create by the telephone companies
+-> LDAP Injection
+-- Modify LDAP requeset to manipulate application results
+-------------------------------------------------------------
+-> Cross-site Scripting
+-- XSS 
+-- Informatio nfrom one site could be shared with another
+-- Takes advantage of the trust a user has for a site
+-- Malware that uses JavaScript
+
+-> Non-persistent (reflected) XSS attack
+-- Web site allow script to run in user input
+- Search box is the common source
+-- Threat actor emails a link that takes advantage of this vulnerability
+-- Script embedded in URL executes in the victim's browser
+
+-> Persistent (Stored) XSS attack
+-- Threat actor posts a message to a social network; includes the malicious payload
+-- Everyone gets the payload (Persistent)
+- No Specific target
+- For social networking, can spread quickly
+
+- Protecting Against XSS
+-- Be careful when clicking untrusted links
+-- Consider disabling JavaScript
+-- Keep your browser and application updated
+If Developer;
+- Validate or Sanitize the input
+-------------------------------------------------------------
+-> Cros-site request forgery
+- One click attack, session riding
+- Takes advantage of the trust that a web application has for the user
+-------------------------------------------------------------
+-> Priviledge Escalation
+- Gain higher-level access to a system
+-- Exploit a vulnerability 
+-- Might be a bug or design flaw
+-- Higher-leve access means more capabilities
+-- High priority vulnerability patches`
+
+- Mitigating Priviledge Escalation
+-- Patch Quickly; Fix the vulnerability
+-- Updated anti-virus/anti-malware software
+-- Data Execution Prevention; Only data in executable areas can run
+
+-- Address space layout randomization; prevent a buffer overrun at a known memory address
 
 
 
