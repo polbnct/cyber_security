@@ -76,6 +76,127 @@ If Developer;
 -- Data Execution Prevention; Only data in executable areas can run
 
 -- Address space layout randomization; prevent a buffer overrun at a known memory address
+--------------------------------------------------------------
 
+-> DNS Poisoning
 
+- Modify the DNS Server (Crafty Hacking)
+- Modify the client host file
+- Send a fake response to a valid DNS request
+
+-> Domain Hijacking
+- Ge access to the domain registration, and you have control where the traffic flows
+-- Don't have to touch the actual servers
+-- Determines the DNS names and DNS IP Address
+
+Ways to do it;
+- Brute Force attack
+- Social Engineer the Password
+- Gain access to the email address that manages the account
+---------------------------------------------------------------
+
+-> Zero-day Attacks
+- Vulnerabilities to an Application or Operating system
+- Someone is working hard ot find the next big vulnerability
+- Exploits the vulnerability
+- Increasingly being more common
+---------------------------------------------------------------
+-> Replay attacks
+- Useful infromation is transmitted over the network
+- Need access to the raw network data (Network tap, ARP poisoning, malware on the victim)
+- The gathered information may help the bad guy
+
+---------------------------------------------------------------
+-> URL hiacking
+- Make money from your mistake
+- Sell the badly spelled doomain to the actual owner
+- Redirect to a competitor
+- Phishing site
+- Infect with a drive-by download
+
+Ways;
+- Typosquatting / brandjacking (take advantage of poor selling)
+- Outright misspelling
+- Typing error
+- Different phrase
+- Different top-level domain
+
+-> Clickjacking
+- You're clicking on a button (but you're actually clicking on something else)
+- Normal web page underneath (Invisible layer on the top)
+- Mostly used in Mobile Devices
+
+-> Mobile attack
+- Cloak & Dagger
+- Invisible information drawn over the screen and monitor keystrokes to record user input
+
+-> Browser cookies and sessions IDs
+- Cookies;
+-- Information stored on your computer by the browser
+-- Used for tracking, personalization, session management
+-- Could be considered be a privacy risk
+-- Session IDs are often storede in the cookies
+
+-> Session hijacking (Sidejacking)
+-- Someone getting access to a service without authenticating to the service
+
+Header manipulation;
+- Information gathering - wireshark, Kismet
+- Exploits - Cross-site scripting
+- Modify headers - Tamper, Firesheep, Scapy
+- Modify cookies - Cookies Manager + (Firefox add-on)
+
+Prevention;
+- Encrypt end-to-end
+-- They can't capture your session ID if they can't see it
+-- Additional load on the web server (HTTPS)
+-- Firefox extension: HTTPS Everywhere, Force-TLS
+-- Many sites are moving to HTTPS-only
+
+- Encrypt end-to-somewhere
+-- At least avoid capture over a local wireless network
+-- Still in-the-clear for part of the journey
+-- Personal VPN (OpenVPN, VyprVPN, etc)
+
+- Use session ID Monitors;
+-- Blacksheep, Application-specific monitors
+
+---------------------------------------------------------
+
+- Traditional anti-virus is very good at identifying known attacks
+-- Checks the signature
+-- Block anything that matches
+
+- There are still ways to infect and hide
+-- Zero-day attacks, new attack types, etc.
+
+Drivers - ways to backup your files
+
+- The interaction between the hardware and your operating system
+-- They are often trusted
+-- Great opportunity for security issues
+
+- Hardware interactions contain sensitive information
+-- Video, Keyboard, Mouse
+ 
+-> Shimming;
+- Filling in the space between two objects (Middleman)
+Ex. 
+- Windows compatibility mode or Application Compatibility Shim Cache
+
+-> Refactoring;
+- Metamorphic Malware
+-- Differnet program each time it's downloaded
+- Make it appear different each time
+-- Add NOP instruction
+-- Loops, pointless code strings
+
+- Can intelligently redesign itself
+-- Reorder functions
+-- Modify the application flows
+-- Reorder ode and insert unused data types
+
+- Difficult to match with signature-based detection
+-- Use always a layered approach
+-------------------------------------------------------------
 
