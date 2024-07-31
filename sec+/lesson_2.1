@@ -198,5 +198,207 @@ Ex.
 
 - Difficult to match with signature-based detection
 -- Use always a layered approach
+------------------------------------------------------------
+
+-> Spoofing
+- Pretending to be something you aren't 
+(Fake web server, Fake DNS server, etc.)
+- Email Address Spoofing
+-- The sending address of an email isn't really the sender
+- Caller ID Spoofing
+-- Incoming call information is completely fake
+- Man-in-the-middle attacks
+
+-> Media Access Control (Mac) - Spoofing
+
+- Ethernet device has a MAC address
+- Changing the MAC address can be legitimate
+- Circumvent MAC-based ACLs
+- Fake-out a wireless address filter
+
+-> IP address - Spoofing
+
+- Take someone else's IP Address
+-- Pretend to be somewhere you are not
+
+- Can be legitimate
+-- Load Balancing
+-- Load Testing
+
+- May not be legitimate
+-- ARP poisoning
+-- DNS amplification / DDoS
+
+------------------------------------------------------
+-> Replay Attack
+- Similar to a wired replay attacks
+- Wireless adds some additional capabilities
+- Much easier to capture data
+
+-> Cracking WEP
+- A broken security protocol
+- Could not stop the replay of 802.11 packets
+
+- ARP request replay attack
+-- Cracking WEP requires thousands of Initialization Vector (IV)packets
+-- Or replay a ton of ARPs and collect the IV packets
+-- Allowing you to cract WEP in seconds
+
+------------------------------------------------------
+-> Spam
+- Unsolicited messages
+-- Email, Forum, etc.
+-- Spam over Instant Messaging (SPIM)
+
+- Various Content
+-- Commercial advertising
+-- Non-commercial proselytizing
+-- Phishing attempts
+
+- Significant Technology Issue
+-- Security concerns, resource utilization, storage costs, managing the spam
+
+-> Preventing Spam
+
+- Mail Gateway
+-- Stop it at the gateway before it reaches the user
+-- On-site or cloud-based
+-- Allowed list (Only receive email from trusted senders)
+
+- SMTP Standards checking
+-- (Block anything that doesn't follow RFC Standards)
+
+- rDNS 
+-- Reverse DNS (Block email where the sender's domain doesn't match the IP address)
+k
+
+- Tarpitting
+-- Intentionally slow down the server conversation
+
+- Recipient Filtering
+-- Block all email not addressed to a valid recipient email address
+
 -------------------------------------------------------------
+-> Influence Campaigns
+
+-> Hacking Public Opinion
+- Influence Campaigns 
+-- Sway public opinion on political and social issues
+
+- Nation-state actors
+-- Divide, Distract, and Persuade
+
+- Advertising is an option
+-- Buy a voice for your opinion
+
+- Enabled through Social Media
+-- Creating, Sharing, Liking
+-- Amplification
+
+-> Hybrid Welfare
+- Military strategy
+-- A broad description of the techniques
+-- Wage war non-traditionally
+
+- Not a new concept
+-- The Internet adds new methods
+
+- Cyberwarfare
+-- Attack an entity with technology
+
+- Influence with a military spin
+-- Influence foreign elections (Fake News)
+-----------------------------------------------------------
+-> Other Social Engineering Attacks
+
+-> Invoice Scams
+- Starts with a bit of spear phishing
+-- Atacker know who pays the bills
+
+- Attacker sends a fake invoice
+-- Domain renewal, toner cartridges, etc.
+-- From:address is a spoofed version of the CEO
+
+- Accounting pays the invoice
+-- It was from the CEO, after all
+
+-> Credential Harvesting
+- Also called password harvesting
+-- Attackers collec login credentials
+
+- There are a lot of stored credentials on your computer
+-- Chrome, Firefox, Outlook, Windows Credential Manager, etc.
+
+- User receives an email with a malicious Microsoft Word doc
+-- Opening the document runs a macro downloads credential harvesting malware
+
+----------------------------------------------------------
+-> Password Attacks
+- Plaintext / Unencrypted Passwords
+-- No encryption, you can read the stored password
+-- Rare
+
+How should you store Password?
+
+- Hashing a password
+-- Hashes represent data as a fixed-length string of text
+(Message Digest or Fingerprint)
+
+- Will not have a collision in the system 
+-- Different inputs will not have the same hash
+
+- One-way trip
+-- Impossible to recover the original message from the digest
+-- Common way to store passwords
+
+-> Salting
+- A random data added to a password when hashing
+- Every users get their own random salt (commonly stored with the pasword)
+- Rainbow tables won't work with salted hashes (additional random value added to the original password)
+- Slow things down in hte brute force process
+
+Attacks;
+-> Spraying attacks
+- Try to login with an incorrect password
+- Usees some common passwords
+
+-> Brute force Attack;
+- Try every possible password combination until the a hash is matched
+- Might take some time (A strong hashing algorithm slows things down)
+
+- Brute Force Attack - Online
+-- Keep trying the login process
+-- Very slow
+-- Most accounts will lockout after a number of failed attempts
+
+- Brute Force the Hash - Offline
+-- Obtain the list of users and hashes
+-- Calculate a password hash, Compare it to a stored hash
+-- Larger computational resources requirement
+
+-> Dictionary attack
+- Use a dictionary to find common words
+- Many common wordlist available on the net (Some are customized by language or line of work)
+- The password crackers can substitute letters
+- Takes time - Distributed cracking and GPU cracking is common
+
+Database;
+-> Rainbow Tables
+- An optimized, pre-built set of hashes
+-- Saves time and storage space
+-- Doesn't need to contain every hash
+-- Contains pre-calculated hash chain
+
+- Remarkable speed Increase
+-- Especially with longer passwords
+
+- Need different tables for different hashing methods
+
+
+
+
+
+
+
+
 
