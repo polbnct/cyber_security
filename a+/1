@@ -1,0 +1,285 @@
+-> Laptop Hardware;
+- Engineered to precise spcification (Challenging Repair)
+- Some laptops are easier to fix than others
+(Ongoing learning process)
+- Understand the process (may vary between other laptops)
+
+-> Laptop Batteries;
+-- The power source when unplugged
+-- Five minutes vs one hour
+
+- Using Lithium-Ion (Li-ion) and Lithium-Ion polymer (LiPo) are common
+-- No "memory effect"
+-- Changing the battery diminished capacity
+
+- Different form factor for each laptop
+-- Battery types and styles can vary
+-- Battery technology is changing constantly
+
+-> Laptop Keyboard;
+- The most-used component of the laptop
+-- Can be easy to replace
+-- A few screws and a single ribbon cable
+
+- Or connect external USB keyboard
+-- Not very portable, but works in a pinch
+
+-> Laptop Keys
+-- Some repairs might require the removal or replacement of a key cap
+-- Check with the manufacturer's instructions (It's very easy to accidentally break the key can or the components underneath)
+
+-> Laptop Memory
+- Small Outline Dual In-line Memory Module (SO-DIMM)
+- Memory used in laptops nad mobile devices (Often easy to install and replace)
+- Some laptop memory is soldered to the system board
+
+-> Laptop storage
+- Magnetic Disk
+-- Traditional spinning drive platters
+-- 2.5 form factors (3.5 inch for desktops)
+
+- SSD (Solid-state drive)
+-- All memory, no moving parts
+-- Silent, fast access time, less latency
+-- 2.5 inch form factors
+
+- M.2 
+-- Smaller form factor
+-- No SATA data or power cables
+-- Easy to install and replace
+
+- Replacing Laptop Storage
+-- All internal (Open a cover on the back, Open the entire laptop)
+-- Can be very modular (Two screws and the drive slides out
+-- M.2 drives are even easier (One screw and Similar to RAM installation)
+
+-> Migrating from HDD to SSD
+- An impressive upgrade
+-- Move from spinning mechanical drive to solid state memory
+-- It's almost like getting a new laptop
+
+- Install an OS on the SSD
+-- Move user documents between drives
+-- Install any required applications
+-- Can be time consuming
+
+- Image/clone the HDD
+-- No OS installation required
+-- Move everything from one to the other
+-- Imaging software needed (Many commercial and open source options)
+-- Create an image file (one drive at a time)
+-- Drive-to-drive image (Image directly from one drive to the other)
+
+-> 802.11 wireless and Bluetooth
+
+- Wireless Network Connectivity (Connect without wires)
+-- Connect without wires
+
+- 802.11
+-- Local are network (LAN)
+-- High speed
+-- Internet Access
+
+- Bluetooth
+-- Personal are Network (PAN)
+-- Short range
+-- Connect peripherals and other nearby devices
+
+-> Biometrics
+- Sign in or unlock your laptop with a fingerprint reader or face recognition
+- Requires additional configuration in the OS (Hardware requred for most options)
+- Relatively Secure (Faces and Fingerprints are quite unique)
+
+-> Near Field Communication (NFC)
+- Short Distance Networking
+-- 4 centimeter or less
+-- Data transfers or authentication
+
+- Common on mobile phones and smart watches
+-- Payment method on your wrist
+
+- Use it for authentication without typing a password
+-- Hospital workstations
+-- Warehouses
+-- Manufacturing
+
+----------- Laptop Displays ----------------------
+
+-> Portable LCD
+
+- Liquid Crystal Display
+-- Light shines through liquid crystals
+
+- Advantages
+-- Lightweight
+-- Relatively Low Power
+-- Relatively inexpensive
+
+- Disadvantages
+-- Black levels are challenge
+-- Requires separate backlight
+--- Florescent, LED, etc.
+--- Lights are difficult to replace
+
+-- 3 Technologies of LCD -- :
+
+-> TN (Twisted Nematic) LCD
+- The original LCD technology
+- Fast response times (gaming)
+- Poor viewing angles - color shifts
+
+-> IPS (In Plane Switching) LCD
+- excellent color representation
+- Moreexpensive to produce than TN
+
+-> VA (Vertical Aligment) LCD
+- A good compromise between TN and IPS
+- Good color representation
+- Slower response times than TN
+
+-> OLED (Organic Light Emitting Diode)
+- Organic compound emits light when receiving an electrical current
+
+- Thinner and lighter
+-- Flexible and Mobile - no glass needed 
+
+- No Backlight
+-- The organic compound provides the light
+
+- Tablets, Phones, Smart Watches
+-- Very accurate color representation
+-- A bit higher cost than LCD
+
+-> Wi-Fi Antennas
+- Multiple antennas
+-- WiFi main and aux 
+-- Bluetooth
+
+- Antenna wires wrap around the laptop screen
+
+-> Webcam
+- Video Capture
+-- Built-in camera and microphone
+
+- Usually includes both audio and video
+-- Specialized drives and softwares
+
+-> Microphone
+- Built-in to the laptop display
+-- Useful for video calls
+
+- Not good for non-casual use
+-- Analog or USB microphones can help
+
+-- Fluorescent vs LED backlighting --
+
+-> CCFL - Cold Cathode Fluorescent Lamp
+-- Higher voltage and power needed
+-- Added thickness to the display
+-- No longer a common backlight
+-- Older laptops will use these
+
+-> LED - backlit LCD Display
+-- Backlight is LEDs instead of florescent
+-- LEDs around the edge of the screen
+-- An array of LEDs behind the screen 
+-- The latest laptops are LED-backlit
+
+-> Backlight and inverter
+- LCD Displays need a backlight
+-- Florescent lamp/LED to LCD display to your eyes
+
+- Some laptops have inverters
+-- Turn DC into AC
+
+- Verify backlight
+-- Look closely
+-- Use a flashlight
+
+- May need to replace the LCD inverter or display
+
+-> Digitizer
+- Use a pen-like device as input
+-- Stylus input
+-- Useful for graphical input
+
+- Used commonly on laptops / tablets
+-- Or hybrid devices
+
+- Touchscreen
+-- Merge laptop and tablet input
+--- Digitizer reponds to touch
+--- No keyboard required but often still available
+
+- Many options for input
+-- Use the best one for the job
+
+- Connecting Mobile Devices -----------------
+
+- Phones and Tablets
+-- Many different ways to connect
+
+- Wired and Wireless connectivity
+-- Standard and options change through the years
+
+- Used for synchronization, connectivity, backup, and identification
+-- Sometimes simultaneously
+
+-> Universal Serial Bus (USB)
+- high-speed wired communication
+- Used for charging and data transfers
+
+- Micro-USB
+-- A smaller USB connection
+-- Common now worldwide
+
+- Older devices may use Mini-USB
+-- Slightly Larger
+
+- USB-C
+-- 24-pin double-sided USB connector
+-- Acts as a USB 2.0/3.0/3.1/4 Connection
+
+- Can transmit other signals
+-- DisplayPort
+-- HDMI
+-- Thunderbolt
+
+- Lightning
+-- Apple proprietary (8pins)
+-- Iphone and Ipad
+
+- Higher power output for phones and tablets
+- Can be inserted either way
+- Simpler design
+
+-> Serial Interfaces
+
+- DB-9 (DE-9)
+-- Commonly used for RS-232 signals
+--- Recommended Standard 232
+--- An industry standard since 1969
+
+-- Serial Communications standard
+--- Traditionally used for modems connections
+
+-- Used as a configuration port
+--- Switches, Routers, Firewalls, etc. (Use a USB to DB-9 converter table)
+
+-> Near Field Communication (NFC)
+- Sends small amounts of data wirelessly over a limited area
+- Built into your phone
+- Can be used as Access token, identity "card"
+
+-> Bluetooth
+- High speed communication over short distances (PAN)
+- Can be connected to our mobile devices
+
+-> Hotspot
+- Your own personal wireless router
+- Extend the cellular data network to all of your devices
+- Dependent on phone type and provider (May require additional charges and data cost)
+
+
+
+
