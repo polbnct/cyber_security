@@ -280,6 +280,195 @@
 - Extend the cellular data network to all of your devices
 - Dependent on phone type and provider (May require additional charges and data cost)
 
+-Mobile Devices-------------------------------
+
+-> Touch pens
+- Activate the interface without actually touching it
+- Handwriting (Note taking, signature)
+- Precise selection (Easier to see the screen)
+
+-> Active stylus (Digital Stylus)
+- A more advanced writing tool
+- Pressure sensitivity, programmable buttons, etc.
+- Must be compatible with the tablet (Apple iPad uses an Apple Pencil)
+
+-> Drawing Pad
+- Use an active stylus with an external digitizer
+-- Very precise input
+- Support across many operating systems
+
+-> Trackpad
+- Replace the mouse
+-- Useful in tight working areas
+-- Common on laptops
+
+- External options
+-- Battery powered and Bluetooth connected
+(Multiple finger unput, and dragging)
+
+- Enable and disable 
+
+-> Headset
+- Hands-free audio
+
+- Wired
+-- USB connections are common on laptops
+-- Connects to 3.5mm TRRS(tip-ring-ring-sleeve) connector
+- Analog audio jack
+- Iphone can use Lightning port
+
+- Wireless
+-- Bluetooth headset
+
+-> Speakers
+- Mobile audio (Battery powered)
+- Wireless connection (Bluetooth link)
+- Stereo sound (Small package)
+
+-> Camera / Webcam
+- Internal or External
+-- Commonly external on desktops, internal on laptops/tablets/phones
+- Accessible from multimedia applications, photo utilities, and video conferencing
+
+-> Docking station
+- Use external keyboard
+- Extend existing laptop interfaces
+- Add additional functionality
+- Desktop adapter cards
+- Avoid cable issues
+
+-> Port replicator
+- Similar to a docking station
+- Does not commonly have an expansion card option
+- Usually connects using USB
+
+- Cellular Networks -------------------------------
+
+-> Mobile devices (Cell phones)
+- Separate land into 'cells'
+
+- 2G networks
+-- GSM - Global System for Mobile Communication
+-- CDMA - Code Division Multiple Access
+
+- Poor data support
+-- Originally used circuit-switching
+
+-> Global System for Mobile Communication
+- Mobile networking standard
+
+- 90% of the market
+-- Originally an EU standard
+-- Worldwide coverage
+
+- Used by AT&T and T-Mobile in the United States
+-- Move your SIM (Subscriber Identity Module) from phone to phone
+- Multiplexing
+
+-> Code Division Multiple Access
+- Everyone communicates at the same time
+- Each call uses a different code
+- The codes are used to filter each call on the receiving side
+
+- Used by Verizon and Sprint
+-- Handsets are controlled by the network provider
+
+-> 3G technology
+- Introduced in 1998
+- Upgraded data connectivity over 2G
+-- Incremental 3G updates improved speeds (several megabits per second)
+- Bandwidth improvement allowed new functionality
+-- GPS, Mobile Television Videoon demand
+
+-> 4G and LTE
+- Long Term Evolution (LTE)
+- Converged standard (GSM and CDMA providers)
+- Based on GSM and EDGE (Enhance Data Rates for GSM Evolution)
+- Standard supports downloads of 150 Mbit/s
+
+- LET Advance (LTE-A)
+-- Standard supports download rates to 300 Mbit/s
+
+-> 5G 
+- fifth generation cellular networking
+-- Launched worldwide in 2020
+
+- Significant performance improvements
+-- At higher frequencies
+-- Eventually 10 gigabits per second
+-- Slower speed from 100-900Mbit/s
+
+- Significant IoT impact
+-- Bandwidth becomes less of a contrain
+-- Larger data transfers
+-- Faster monitoring and notification
+-- Additional cloud processing
+
+Updates;
+-> PRL updates 
+- Preferred Roaming List
+- CDMA Networks
+- Allows your phone to connect to the right tower
+(Can be updated over the Air (OTA))
+
+-> Hotspots
+-- Turn your phone into a WiFi hotspot
+-- Your own personal wireless router
+-- Extend the cellular data network to all of your devices
+
+- Dependent on phone type and provider
+
+-> Bluetooth Pairing
+- Connect a Bluetooth device 
+-- Built-in security
+-- Use or verify a PIN
+
+- Par the devices one time
+- May prefer specific sequence
+
+- Pairing Process - 
+
+1. Enable Bluetooth on both Device 
+2. Set devices to discoverable mode (May require key sequence on Bluetooth device)
+3. Select discovered device
+4. Enter or confirm PIN
+5. Test Connectivity
+
+-> GPS (Global Positioning System)
+- Created by the US Department of Defense (Over 30 satellites currently in orbit)
+- Precision Navigation
+- Determines location based on timing differences (Longitude, Latitude, Altitude)
+- Mobile device location services and geotracking
+-- Maps, direction
+-- Determine physical location based on GPS, WIFI, and cellular towers
+
+-> MDM (Movile Device Management)
+
+- Manage company-owned and user-owned mobile device
+-- BYOD - Bring Your Own Device
+
+- Centralized management of the mobile devices
+
+- Set policies on apps, data, camera, etc.
+-- Control the remote device
+-- Entire device or a "partition"
+
+- Manage access control
+-- Force screen locks and PINs
+
+- Corporate email configuration
+-- user does not need to configure anything
+-- The MDM makes the changes on the device
+-- Account details, server address, communication method
+
+- Two-factor Authentication
+-- Require specific authentication types
+-- Biometrics, pseudo-random authentication app
+
+- Corporate applications
+-- Allow or restrict app installation
+-- Prevent unauthorized app usage
+
 
 
 
