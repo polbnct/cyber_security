@@ -1,3 +1,5 @@
+Lesson 1:
+
 -> Laptop Hardware;
 - Engineered to precise spcification (Challenging Repair)
 - Some laptops are easier to fix than others
@@ -76,12 +78,12 @@
 -- Connect without wires
 
 - 802.11
--- Local are network (LAN)
+-- Wireless Local area network (WLAN)
 -- High speed
 -- Internet Access
 
 - Bluetooth
--- Personal are Network (PAN)
+-- Personal area Network (PAN)
 -- Short range
 -- Connect peripherals and other nearby devices
 
@@ -468,6 +470,53 @@ Updates;
 - Corporate applications
 -- Allow or restrict app installation
 -- Prevent unauthorized app usage
+
+- Mobile Device Configurations -------------------------
+
+- Many settings are preconfigured
+
+-> Email 
+- Everyone handles email services differently
+- Corporate email configurations can vary
+
+-> Data synchronizaiton
+- Based on data rates and speeds
+- Important for backup and recovery
+
+-> Microsoft 365
+- Outlook, Exchange
+-- Microsoft's email service
+-- Usually the same for Hotmail and Outlook.com
+
+- Authenticate to Microsoft 365
+-- Username, Password
+
+- Select the items to synchronize
+-- Changes in Outlook will appear on the mobile devices
+
+- Same process for Google Workspace
+
+-> iCloud
+- Integrated into iOS and iPadOS
+-- Provide an iCloud username and password
+
+- Select synchronization options
+-- Extensive customization
+
+- Synchronize to macOS
+-- Use your desktop, laptop, or mobile device
+
+- Data types;
+-- Mail
+-- Pictures, Music, Video
+-- Calendar
+-- Contacts
+
+- Data caps and transfer costs;
+-- Cellular vs 802.11
+-- Enable or disable network connections
+-- Control the use of cellular downloads
+
 
 
 
