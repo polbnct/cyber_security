@@ -1,0 +1,55 @@
+-> Fields
+
+Fields are separated between;
+- Selected Fields - fields that contains the upmost important data to you
+- Interesting Fields - have values in at least 20% of the events 
+
+Default Fields;
+- Host, Source, and Sourcetypes are selected by default
+
+a - denotes a hash value
+# - denotes a numeral
+
+Easily returns source - sourcetype=values
+
+Field Operators;
+= and != - Used with numerical or string values
+> >= < <= - Used with numerical values
+
+Difference between != and NOT boolean;
+- The != returns event that are not [value]
+- The NOT returns all the events that do not have a field or status equals to [value]
+
+Automatically Ingested Data on the Fields;
+- host
+- sourcetype
+- source
+
+Internal field;
+- _time
+- _raw
+
+-> Temporary Fields - can also be created on an ad-hoc basis using commands such as "eval"
+
+- | eval -> is used to calculate and manipulate field values
+
+Field Extraction -> can be used to extract data from your data that are not automatically extracted for its assigned sourcetype
+
+- | erex & | rex -> extracts fields from your data using regular expression or regex
+
+-- erex - is like automatic field extraction in the field extractor
+-- rex - allows you to use regular expression named capture groups to extract values at search time -> it can be used on field values or raw data - allows you to match multiple groups
+
+-> Calculated fields - can only reference fields that are already present in the events returned by a search
+
+-> Field alliases - allows you to assign alternative names to fields in your data
+-- does not replace or remove the original field name
+
+Operations Order;
+Field Extraction -> Field Aliases -> Calculated Fields -> Lookups -> Event types -> Tags
+
+
+
+
+
+
