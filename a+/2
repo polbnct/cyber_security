@@ -1,0 +1,222 @@
+- IP -------------------------------
+
+-> Network topology
+-- Ethernet, DSL, cable system
+
+-> Internet Protocol (IP)
+- Boxes of TCP and UDP
+
+Visualization;
+Client (Ethernet Header) -> Ethernet Payload -> (Ethernet Trailer) Server
+
+[ IP , TCP, HTTP data ]
+
+-> TCP and UDP
+- Transported inside of IP
+-- Encapsulated by the IP protocol
+-- Two ways to move data from place to place
+-- OSI Layer 4 (Transport Layer)
+-- Multiplexing
+--- Use many different applications at the same time
+
+-> Transmission Control Protocol (TCP)
+- Connection-oriented
+-- A formal connection setup and close
+- Reliable delivery
+-- Recovery from errors
+-- Can manage out-of-order messages or retransmissions
+- Flow Control
+-- The receiver can manage how much data is sent
+
+Computer -> TCP Data -> <- TCP ACK <- Server
+
+-> User Datagram Protocol (UDP)
+- Connectionless 
+-- No formal open or close to the connection
+- Unreliable delivery
+-- No error recovery
+-- No reordering of data or retransmission
+- No flow control
+-- Sender determines the amount of data transmitted
+
+Computer -> UDP DAta -> Server
+
+Why would you use UDP?
+- Real-time communication
+-- There's no way to stop and resend the data
+-- Time doesn't stop for your network
+
+-> Connectionless protocols
+-- DHCP (Dynamic Host Configuraiton Protocol)
+-- TFTP (Trivial File Transfer Protocol)
+
+- Data might not get through
+-- The application keeps track and decides what to do
+-- It might not do anything
+
+Communicaiton using TCP ---
+
+- Connection-oriented protocols prefer a "return receipt"
+-- HTTPS (Hypertext Transfer Protocol Secure)
+-- SSH (Secure Shell)
+
+- The application doesn't worry about out of order frames or missing data
+-- TCP handles all of the communication overhead
+-- The application has one job
+
+-> Speedy deliver
+- The IP delivery truck delivers from one (IP) address to another (IP) Address
+-- Every house have unique ID
+- Boxes arrive at the house / IP address
+-- Where does box go?
+- Port is written on the outside of the box
+-- Drop the box into the right room
+
+-> Lots of Ports
+- IPv4 sockets;
+-- Server IP Address, protocol, server application port number
+-- Client IP Address, protocol, client port number
+
+- Non-ephemeral ports - permanent port numbers
+-- Ports 0 through 1,023
+-- Usually on a server or service
+
+- Ephemeral ports - temporary port numbers
+-- Ports 1,024 through 65,535
+-- Determined in a real-time by client
+
+-> Port numbers
+- TCP and UDP ports can be any number 0 and 65,535
+- Most servers (services) used non-ephemeral (non-temporary) port numbers
+-- This isn't always the case (It's just a number)
+- Port numbers are for communication, not security
+- Service port numbers need to be "well-known"
+- TCP port numbers aren;t the same as UDP port numbers
+
+-> Ports on the network
+- Web server - tcp/80
+- VoIP server - udp/5004
+- Email server - tcp/143
+
+---------------------------------------------------------
+
+-> Port Numbers
+- Well known port numbers
+-- Client and server need to match
+- Important for firewalls rules (Port based security)
+- A bit of rote memorization
+-- Becomes second nature after a while
+- Make sure you know port number, protocol, and how the protocol is used
+
+-> File Transfer Protocol (FTP)
+Port Numbers;
+- tcp/20 (active mode data)
+- tcp/21 (control)
+-- Transfers files between systems
+
+- Authenticates with a username and password
+-- Some systems use a generic/anonymous login
+
+- Full-featured functionality
+-- List, add, delete, etc.
+
+-> Secure Shell (SSH)
+- Encrypt communication link - tcp/22
+- Looks and acts as the same as telnet
+
+-> Telecommuncation Network (Telnet)
+- tcp/23
+- Logins to device remotely
+-- Console Access
+- In-the-clear communication
+-- Not the best choice for production system
+
+-> Simple Mail Transfer Protocol (SMTP)
+- Server to server email transfer
+- tcp/25
+- Also used to send mail from a device to a mail server
+- Other protocols are used for clients to receive email (IMAP, MOP)
+
+-> Domain Name System (DNS)
+- Converts names to IP addresses
+- udp/53
+- There are very critical resources
+-- Usually multiple DNS servers are in production
+
+-> Dynamic Host Configuration Protocol (DHCP)
+- Autoated configuration of IP Address, subnet mask and other options
+- udp/67, udp/68
+- Requires a DHCP server
+-- Server, Applicance, integrated into a SOHO router, etc.
+
+- Dynamic / pooled
+-- Ip addresses are assigned in real-time form a pool
+-- Each system is given a lease and must renew at set interval
+
+- DHCP reservation
+-- Addresses are assigned by MAC address in the DHCP server
+-- Manage addresses from one location
+
+-> HTTP and HTTPS
+Protocols;
+- HTTP - tcp/80 - Hypertext Transfer Protocol - Web server communication
+- HTTPS - tcp/443 - Hypertext Transfer Protocol Secure - Web server communication with encryption
+
+-> POP3 / IMAP
+- Receive emails from an email server
+-- Authenticate and transfer
+
+- POP3 = Post office Protocol version 3
+-- tcp/110
+-- Basic mail transfer functionality
+
+- IMAP4 = Internet Message Access Protocol v4
+-- tcp/143
+-- Includes management of email inbox from multiple clients
+
+- Server Message Block (SMB)
+- Protocol used by Microsoft Windows
+-- File sharing, printer sharing
+-- Also called CIFS (Common Internet File System)
+
+- Using NetBIOS over TCP/IP (Network Basic Input/Output Systme)
+-- udp/137 - NetBIOS name services (nbname)
+-- tcp/139 - NetBIOS session service (nbsession)
+
+- Direct over tcp/445 (NetBIOS-less)
+-- Direct SMB communication over TCP without the NetBIOS transport
+
+-> Simple Network Management Protocol (SNMP)
+- Gather statistics from network devices
+-- Queries: udp/161
+-- Traps: udp/162
+
+- v1 - The original
+-- Structured tables
+-- In-the-clear
+
+- v2 - A good step ahead
+-- Data type enchancement
+-- Bulk tranfers
+-- Still in-the-clear
+
+- v3 - A secure standard 
+-- Message integrity
+-- Authentication
+-- Encryption
+
+-> Lightweight Directory Access Protocol (LDAP)
+- tcp/389
+
+- Store and retrieve information in a network directory
+-- Commonly used in Microsoft Active Directory
+
+-> Remote Desktop Protocol (RDP)
+- Share a desktop from a remote location over tcp/3389
+- Remote Desktop Services on many Windows versions
+- Can connect to an entire desktop or just an application
+- Clients for Windows, macOS, Linux, Unix, iPhone, Android and other.
+
+
+
+
