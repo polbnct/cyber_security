@@ -359,6 +359,26 @@ Two types of Switch;
 - Many options
 -- Single port, multi-port, copper, fiber
 
+-> Software Defined Networking (SDN)
+- Infrastructure layer / Data plane
+-- Process the network frames and packets
+-- Forwarding, trunking, encrypting, NAT
+
+- Control Layer / Control Plane
+-- Manages the actions of the data plane
+-- Routing tables, session tables, NAT tables
+-- Dynamic routing protocol updates
+
+- Application layer / Management plane
+-- Configure and manage the device
+-- SSH, browser, API
+
+Application Layer / Management Plane --> SSH, SNMP, API
+Control Layer / Control Plane --> Dynamic routing protocols
+Infrastructure Layer / Data Plane --> Network traffic
+
+
+
 
 
 
