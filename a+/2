@@ -377,6 +377,298 @@ Application Layer / Management Plane --> SSH, SNMP, API
 Control Layer / Control Plane --> Dynamic routing protocols
 Infrastructure Layer / Data Plane --> Network traffic
 
+--------------------------------
+
+-> Wireless Standards <-
+
+-> Wireless networking (802.11)
+- Managed by the IEEE LAN/MAN Standards Committee (IEEE 802)
+
+-> Many updates over time
+- Check with IEEE for the latest
+
+-> The Wi-Fi trademark
+-- Wi-fi Alliance handles interoperability testing
+
+-> 802.11a
+- One of the original 802.11 wireless standards
+-- October 1999
+- Operates in the 5GHz range
+- 54 megabits per second (Mbit/s)
+- Smaller range than 802.11b
+
+-> 802.11b
+- Also an original 802.11 standard
+- Operates in the 2.4 GHz range
+- Better range than 802.11a
+- More frequency conflict
+-- Baby monitors, cordless phones, microwave ovens, Bluetooth
+
+-> 802.11g
+- An "upgrade" to 802.11b
+-- June 2003
+- Operates in the 2.4 GHz range
+- 54 megabits per second (Mbit/s) (Similar to 802.11a)
+- Backwards-compatible with 802.11b
+- Same 2.4 GHz frequency confilct probles as 802.11b
+
+-> 802.11n (Wi-Fi 4)
+- The update to 802.11g, 802.11b, and 802.11a
+-- October 2009
+- Operates at 5GHz and/or 2.4 GHz
+- 600 megabits per second (Mbit/s)
+- 802.11n uses MIMO
+-- Multiple-input Multiple-output
+-- Multiple transmit and receive antennas
+
+-> 802.11ac (Wi-Fi 5)
+- Approved in January 2014
+- Operates in te 5GHz band
+- Increased channel bonding
+- Denser signaling modulation
+- Eight MU-MIMO downlink streams
+-- Twice as many streams as 802.11n
+-- Nearly 7 gigabits per second
+
+-> 802.11ax (Wi-Fi 6)
+- Approved in February 2021
+- Operates at 5 GHz and/or 2.4 GHz (20,40, 80, and 160 MHz channels width)
+- 1,201 megabits per second per channel
+-- A relatively small increase in throughput
+- Orthogonal frequency-division multiple access (OFDMA)
+-- Works similar to cellular communication
+-- Improves high-density installations
+
+-> Long range fixed wireless
+- Wireless access point in a house with the stock antennas
+- Try connecting two buildings located miles from each other
+- Outdoors (Minimal signal absorption or bounce)
+- Directional antennas (Focused, point to point connection)
+- Frequency use
+-- Unlicense 2.4GHz or 5 GHz frequencies
+-- Additional frequencies may be available
+-- Additional licensing may be required
+
+-> RFID (Radio-frequency identification)
+Uses;
+- Access badges
+- Inventory/Assembly line tracking
+- Pet/Animal identification
+- Anything that needs to be tracked
+
+- Uses radar technology
+- Radio energy transmitted to the tag
+- RF powers the tag, ID is transmitted back
+- Bidirectional communication
+- Some tag formats can be active/powered
+
+-> NFC (Near Field Communication)
+- Two-way wireless communication
+- Payment systems 
+-- Major credit cards
+-- Online wallets
+- Bootstrap for other wireless
+-- NFC helps with bluetooth pairing
+- Access token, identity "card"
+-- Short range with encryption support
+
+-> 802.11 technologies
+- Frequencies 
+-- 2.4 GHz or 5 GHz
+-- And sometimes both
+
+- Channels 
+-- Group of frequencies, numbered by the IEEE
+-- Non-overlapping channels would be ideal
+
+- Regulations
+-- Most countries have regulations to manage frequency use
+-- Spectrum use, power output, interference requirements, etc.
+
+-> Bluetooth 
+- Remove the wires
+-- Headsets
+-- Speakers
+-- Keyboards / Mice
+
+- Uses the 2.4 GHz range
+-- Unlicensed ISM (Industrial, Scientific and Medical) band
+-- Same as 802.11
+
+- Short range
+-- Most consumers device operate to about 10 meters
+-- Industrial Bluetooth devices can communicate over 100 meters
+
+-------------------------------------------
+
+-> DNS Server (Domain Name System)
+- Convert names to IP Address
+- And vice versa
+
+- Distributed naming system
+- Usually managed by the ISP or enterprise IT department (Critical Resources)
+
+-> DHCP Server (Dynamic Host Configuration Protocol)
+- Automatic IP address configuration
+
+- Very common service
+-- Available on most home routers
+
+- Enterprise DHCP will be redundant
+-- Usually running on central service
+
+-> FIle Server
+- Centralized storage of documents, spreadsheets, videos, pictures, and any other files
+-- A file share
+
+- Standard system of file management
+-- SMB (Service Message Block), AFP (Apple Filing Protocol)
+
+- The front-end hides the protocol
+-- Copy, delete, rename, etc.
+
+-> Print Server
+- Connect a printer to the network (Provide printing services for all network devices)
+- May be software in a computer
+- May be built-in to the printer
+- Uses standard printing protocols
+-- SMB (Server Message Block), IPP (Internet Printing Protocol), LDP (Line Printer Daemon)
+
+-> Mail Server
+- Store your incoming mail
+-- Send your outgoing mail
+
+- Usually managed by the ISP or the enterprise IT department
+- One of the most important services (24 x 7 support)
+
+-> Syslog
+- Standard for message logging
+-- Diverse systems, consolidated log
+
+- Usually a central logging receiver
+-- SIEM
+
+- Lot of disk space
+
+-> Web server
+- Repond to browser requests
+-- Uses standard web browsing protocols - HTTP/HTTPS
+-- Pages - HTML, HTML5
+
+- Web pages are stored on the server
+-- Static pages or built dynamically in real-time
+
+-> Authentication server
+- Login authentication to resources
+- Almost always an enterprise service
+- Usually a set of redundant servers
+-- Alaways available 
+-- Extremely important service
+
+-> SPAM
+- Unsolicited messages (Email, Forums, etc.)
+- Various content
+-- Commercial advertising
+-- Non-commercial proselytizing
+-- Phishing attempts
+
+- Significant technology issue
+-- Security concerns, resource utilization, storage costs, managing the spam
+
+-> Spam Gateways
+- Unsolicited email
+-- Stop it at the gateway before it reaches the user
+-- On-site or cloud-based
+
+-> All-in-one security applicance
+- Next generation firewall, Unified Threat Management (UTM) / Web security gateway
+- URL filter / Content inspection
+- Malware Inspection
+- Spam filter
+- CSU / DSU
+- Router, Switch
+- Firewall
+- IDS/IPS
+- Bandwidth shaper
+- VPN endpoint
+
+-> Load Balancers
+- Distribute the load 
+-- Multiple servers 
+-- Invisible to the end-user
+
+- Large-scale implementations
+-- Web server farms, database farms
+
+- Fault tolerance
+-- Server outages have no effect
+-- Very fast convergence
+
+Features;
+- Configurable Load
+- TCP offload
+- SSL offload
+- Caching
+- Priotization
+- Content Switching
+
+-> Proxy Server
+- An intermediate server
+-- Clients makes the request to the proxy
+-- The proxy performs the actual reequest
+-- The proxy provides results back to the client
+
+- Useful features
+-- Access control, caching, URL filtering, content scanning
+
+-> SCADA / ICS
+- Supervisory Control and Data Acquisition System
+-- Large-scale, multi-site Industrial Control Systems (ICS)
+- PC Manages equipment
+- Distributed control systems
+- Requires extensive segmentation
+
+-> Legacy and Embedded Systems
+- Legacy systems;
+-- Another expression for "really old"
+-- May also be "really important"
+-- Learning old things can be just as important as learning the new things
+
+- Embedded Systems;
+-- Purpose-built device
+-- Notusual to have direct access to the operating systems
+-- Alarm system, door security, time card system
+
+-> IoT (Internet of Things)
+- Appliances
+- Smart devices
+- Air control
+- Access
+- May require a semented network
+
+--------------------------------------
+
+-> IP Addressing
+- IPv4 is the primary protocol for everything we do
+-- Included in almost all configurations
+-- Internet Protocol version 4
+-- OSI layer 3 address
+- Networking;
+-- IP Address, e.g., 192.189.1.165 (needs to have a unique IP address)
+-- Subnet mask, e.g., 255.255.255.0 (used by local device to determine whaqt subnet it's on
+-- Default gateway, e.g., 192.168.1.1 (must be an IP address on the local subnet)
+
+- IPv6 is now part of all major operating systems
+-- And the backbone of our internet infrastructure
+-- Internet Protocol v6 - 128-bit address
+-- First 64 bits is generally the network prefix (/64)
+-- Last 64 buts us then the host network address
+
+DNS Servers;
+- Translates names and IP Addresses
+- You configure two DNS servers in your IP Configuration
+
+
 
 
 
